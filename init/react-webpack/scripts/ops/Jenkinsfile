@@ -1,0 +1,41 @@
+pipeline {
+    agent any
+    stages {
+        stage('Test') {
+            steps {
+                echo "Test"
+                sh '$(aws ecr get-login --no-include-email)'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh './scripts/ops/ci.sh build dev'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                sh './scripts/ops/ci.sh build dev'
+            }
+        }
+        stage('Tag') {
+            //push git tag
+            steps {
+                // sh './builds-develop/push_tag.sh'
+                echo 'Tag'
+            }
+        }
+    }
+    post {
+        success {
+            wrap([$class: 'AnsiColorBuildWrapper', 'colorMapName': 'xterm']) {
+                sh 'sh ./builds-develop/success.sh'
+            }
+        }
+        failure {
+            wrap([$class: 'AnsiColorBuildWrapper', 'colorMapName': 'xterm']) {
+                sh 'sh ./builds-develop/failure.sh'
+            }
+        }
+    }
+}
+

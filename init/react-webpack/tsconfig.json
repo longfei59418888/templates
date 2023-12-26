@@ -1,0 +1,63 @@
+{
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.scss",
+    "tests/**/*.ts",
+    "global.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "exactOptionalPropertyTypes": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": false,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "useUnknownInCatchVariables": true,
+    "allowArbitraryExtensions": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    // 模块类型：CommonJS、UMD、AMD、ESNext、node16/nodenext
+    "module": "ESNext",
+    // 模块解析方式：node16、nodenext、node10(node)、classic
+    "moduleResolution": "Node",
+    "paths": {
+      "@src/*": [
+        "src/*"
+      ]
+    },
+    "typeRoots": [
+      "node_modules/@types",
+      "global.d.ts"
+    ],
+    "types": [
+      "webpack-env",
+      "node",
+      "jest"
+    ],
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "importHelpers": true,
+    "allowJs": true,
+    "checkJs": false,
+    "disableSizeLimit": false,
+    "plugins": [],
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "target": "ESNext"
+  }
+}

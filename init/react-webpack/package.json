@@ -1,0 +1,95 @@
+{
+  "name": "init-item",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./scripts/webpack/dev.ts",
+    "test": "echo test",
+    "run:uat": "cross-env ENV=uat yarn run start",
+    "run:prod": "cross-env ENV=pro yarn run start",
+    "build:dev": "webpack --config ./scripts/webpack/prod.ts",
+    "build:analysis": "cross-env ENV=pro OPTIMIZE=1 yarn run start",
+    "build:prod": "cross-env ENV=pro yarn run start"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{scss,less,css}": [
+      "stylelint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "antd": "^5.11.2",
+    "axios": "^1.5.0",
+    "loadsh": "^0.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.14.2",
+    "react-router-dom": "^6.15.0",
+    "styled-components": "^6.1.1",
+    "xl-story-book": "^1.0.17",
+    "zustand": "^4.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.11",
+    "@babel/preset-env": "^7.22.14",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.11",
+    "@babel/register": "^7.22.5",
+    "@swc/register": "^0.1.10",
+    "@testing-library/dom": "^9.3.1",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^29.5.4",
+    "@types/node": "^20.4.2",
+    "@types/react-dom": "^18.2.7",
+    "@types/webpack": "^5.28.1",
+    "@types/webpack-env": "^1.18.1",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "add-asset-html-webpack-plugin": "^6.0.0",
+    "babel-jest": "^29.6.4",
+    "babel-loader": "^9.1.3",
+    "babel-plugin-import": "^1.13.8",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-storybook": "^0.6.13",
+    "fork-ts-checker-webpack-plugin": "^8.0.0",
+    "html-webpack-plugin": "^5.5.3",
+    "husky": "^8.0.3",
+    "jest": "^29.6.4",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3",
+    "react-hot-loader": "^4.13.1",
+    "thread-loader": "^4.0.2",
+    "ts-jest": "^29.1.1",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-bundle-analyzer": "^4.10.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.9.0"
+  },
+  "engines": {
+    "node": ">16.19.1"
+  }
+}
