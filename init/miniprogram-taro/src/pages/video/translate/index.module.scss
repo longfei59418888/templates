@@ -1,0 +1,83 @@
+$mainColor: #58bfbd;
+
+.pageContainer {
+  background: linear-gradient(-60deg, #c9c2fc, #eeffee 30%, #eeffee 50%, #c6f7e9);
+  padding: 0 32px 84px;
+  color: #333;
+}
+
+.banner {
+  height: 280px;
+  padding-top: 40px;
+
+  > view {
+    &:first-child {
+      color: #1d0642;
+      margin-bottom: 12px;
+    }
+    &:last-child {
+      margin-top: 18px;
+      color: #fff;
+      background: linear-gradient(to left, $mainColor, #7941ad);
+      padding: 2px 12px;
+      border-radius: 40px;
+    }
+  }
+
+  text {
+    background-image: -webkit-linear-gradient(left, $mainColor, #7941ad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  image {
+    right: 0;
+    bottom: 0;
+    width: 350px;
+  }
+}
+
+.optionsContainer {
+  padding: 32px;
+
+  .upload {
+    border: $mainColor 4px dashed;
+    padding: 60px 0;
+    color: $mainColor;
+
+    image {
+      width: 80px;
+      margin-bottom: 12px;
+    }
+  }
+}
+
+.language {
+  margin-top: 60px;
+
+  > view {
+    margin-top: 32px;
+  }
+}
+
+.button {
+  padding: 40px;
+  button {
+    background: linear-gradient(to right, $mainColor, #7941ad);
+  }
+
+  > view {
+    &:last-child {
+      margin: 0 auto;
+      width: fit-content;
+    }
+  }
+}
+
+.list {
+  > view {
+    &:nth-child(2n + 1) {
+      margin-right: 32px;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@import "./string";
+
+
+// 是否包含Element
+@function containsElement($selector) {
+  @return str-contains(str-selector($selector), $--element-separator);
+}
+
+// 是否包含Modifier
+@function contains-modifier($selector) {
+  @return str-contains(str-selector($selector), $--modifier-separator);
+}
+
+// 获取块名
+@function get-block($selector) {
+  $selector: str-selector($selector);
+  $parent: str-slice($selector, str-index-reverse($selector, '.'));
+  $start: -2;
+  @if containsElement($parent) {
+    $start: str-index($parent, $--element-separator) - 1;
+  }
+  @else if contains-modifier($parent) {
+    $start: str-index($parent, $--modifier-separator) - 1;
+  }
+  $block: str-slice($parent, 0, $start);
+  @return $block;
+}
+
+// 获取节点列表
+@function get-elements($elements) {
+  $result: '';
+  $block: get-block(&);
+  $selector: if(contains-modifier(&), get-block(&), &);
+  @each $unit in $elements {
+    $element: selector-append($selector, $--element-separator + $unit);
+    @if containsElement($selector) {
+      $element: selector-nest($selector, selector-append($block, $--element-separator + $unit));
+    }
+    $result: $result + $element + ',';
+  }
+  @return $result;
+}

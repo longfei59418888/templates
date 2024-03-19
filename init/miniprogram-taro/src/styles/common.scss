@@ -1,0 +1,249 @@
+/**
+ * 基础类
+ * @author XiaoLong
+ */
+
+@include common(clear) {
+  zoom: 1;
+  &:after,
+  &:before {
+    display: table;
+    line-height: 0;
+    clear: both;
+    content: '';
+  }
+}
+
+// display 类集合
+$displays: (
+  dib: inline-block,
+  db: block,
+  dn: none,
+  di: inline,
+);
+@each $prop, $value in $displays {
+  @include common($prop) {
+    display: $value;
+  }
+}
+
+$positions: (relative, sticky, absolute, fixed, static, flex);
+@for $i from 1 through length($positions) {
+  $item: nth($positions, $i);
+  @include common($item) {
+    position: $item;
+  }
+}
+
+$floats: (right, left);
+@for $i from 1 through length($floats) {
+  $item: nth($floats, $i);
+  @include common($item) {
+    display: $item;
+  }
+  @include common(t_#{$item}) {
+    text-align: $item;
+  }
+}
+
+.sep_t_center {
+  text-align: center;
+}
+
+$overflows: (
+  ofh: hidden,
+  ofa: auto,
+  ofs: scroll,
+  ofv: visible,
+);
+@each $prop, $value in $overflows {
+  @include common($prop) {
+    overflow: $value;
+  }
+  @include common(x_#{$prop}) {
+    overflow-x: $value;
+  }
+  @include common(y_#{$prop}) {
+    overflow-y: $value;
+  }
+}
+
+.sep_ell {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+// flex 基础类
+@include common(flex) {
+  display: flex;
+}
+
+@include common(fdcolumn) {
+  flex-direction: column;
+}
+
+@include common(fCenter) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@include common(fAlign) {
+  display: flex;
+  align-items: center;
+}
+
+@include common(fBetween) {
+  display: flex;
+  justify-content: space-between;
+}
+
+@include common(fJustify) {
+  display: flex;
+  justify-content: center;
+}
+
+@include common(fJustifyEnd) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@include common(fJustifyStart) {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@include common(fWrap) {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+@for $i from 1 through 5 {
+  @include common(flex#{$i}) {
+    flex: $i;
+  }
+}
+
+// radius 类集合
+$radius: (6, 8, 10, 12, 16, 18, 20, 24, 36, 64);
+@for $i from 1 through length($radius) {
+  $item: nth($radius, $i);
+  .#{$name}radius#{$item} {
+    border-radius: #{$item}px;
+    overflow: hidden;
+  }
+}
+
+//font-size 类集合
+$fonts: (10, 12, 14, 16, 18, 20, 24, 28, 32);
+@for $i from 1 through length($fonts) {
+  $item: nth($fonts, $i);
+  .#{$name}font#{$item} {
+    font-size: #{$item * 2}px;
+  }
+}
+
+// fontWeight 类集合
+$fontWeight: (
+  (
+    name: 4,
+    value: 400,
+  ),
+  (
+    name: 5,
+    value: 500,
+  ),
+  (
+    name: 6,
+    value: 600,
+  ),
+  (
+    name: 1,
+    value: bold,
+  ),
+  (
+    name: 2,
+    value: bolder,
+  ),
+  (
+    name: 0,
+    value: normal,
+  )
+);
+@for $i from 1 through length($fontWeight) {
+  $item: nth($fontWeight, $i);
+  .#{$name}fw#{map-get($item, name)} {
+    font-weight: map-get($item, value);
+  }
+}
+
+$ellipsisLines: (1, 2, 3, 4);
+@for $i from 1 through length($ellipsisLines) {
+  $item: nth($ellipsisLines, $i);
+  .#{$name}_ell#{$item} {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $item;
+    -webkit-box-orient: vertical;
+  }
+}
+
+$zIndexTab: 999;
+$zIndexHeader: 9999;
+$index: (1, 3, 5, 7, 9, $zIndexTab, $zIndexHeader);
+@for $i from 1 through length($index) {
+  $item: nth($index, $i);
+  .sep_zIndex#{$item} {
+    z-index: $item;
+  }
+}
+
+@include common(nowrap) {
+  white-space: nowrap;
+}
+
+@include common(height100) {
+  height: 100%;
+}
+
+@include common(mHeight100) {
+  min-height: 100%;
+}
+
+@include common(width100) {
+  width: 100%;
+}
+
+@include common(bgNone) {
+  background: none;
+}
+
+@include common(bNone) {
+  border: none;
+}
+
+$cWhite: #ffffff;
+@include common(colorWhite) {
+  color: $cWhite;
+}
+@include common(bgWhite) {
+  background: $cWhite;
+}
+$cBlack: #000000;
+@include common(colorBlack) {
+  color: $cBlack;
+}
+@include common(bgBlack) {
+  background: $cBlack;
+}
+$cGray: #aaa;
+@include common(colorGray) {
+  color: $cGray;
+}
+@include common(bgGray) {
+  background: $cGray;
+}

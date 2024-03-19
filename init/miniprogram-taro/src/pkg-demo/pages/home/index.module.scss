@@ -1,0 +1,17 @@
+.page {
+  padding-bottom: 40px;
+}
+.container {
+  padding: 30px 15px;
+  flex-wrap: wrap;
+
+  > view {
+    padding: 10px;
+    width: 50%;
+  }
+}
+
+.canvas {
+  position: absolute;
+  left: 1000%;
+}

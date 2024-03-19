@@ -1,0 +1,9 @@
+@import '../variables';
+@mixin common($block) {
+  $block: selector_append($name, $block);
+  .#{$block} {
+    @content;
+  }
+}
+
+

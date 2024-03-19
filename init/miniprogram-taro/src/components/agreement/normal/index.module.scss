@@ -1,0 +1,22 @@
+.container {
+  padding: 16px 0 16px 40px;
+  vertical-align: top;
+
+  image {
+    width: 32px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 16px;
+  }
+
+  text {
+    vertical-align: text-top;
+  }
+
+
+  .agreement{
+    color: #58bfbd;
+  }
+
+}

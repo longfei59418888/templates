@@ -5,32 +5,27 @@
 
 ## 技术栈
 
-[![Webpack](https://img.shields.io/badge/Webpack-v5.88.2-brightgreen.svg)](https://webpack.js.org/)
+[![Taro](https://badgen.net/badge/Taro/v3.02/green)](https://docs.taro.zone/docs/)
 [![React](https://img.shields.io/badge/React-v18.2.0-brightgreen.svg)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScrpt-v5.1.6-brightgreen.svg)](https://www.typescriptlang.org/)
 [![Zustand](https://badgen.net/badge/Zustand/v4.4.1/green)](https://github.com/pmndrs/zustand/)
-[![styled-component](https://badgen.net/badge/styled-component/v6.1.1/green)](https://styled-components.com/)
+[![sass](https://badgen.net/badge/sass/v3.02/green)](https://www.sass.hk/)
 
 ### 目录结构
 
 ```tree
 .
 ├── .husky                    # git hooks 操作 配置
-├── jest                      # jest 配置文件
-├── scripts                   # 脚本配置文件
+├── __test__                  # 端对端测试脚本
 │   ├── config                # 环境配置
-│   │   ├── .env              
-│   │   ├── .env.dev          
-│   │   ├── .env.prod          
-│   │   ├── .env.uat          
-│   ├── ops                   # 构建脚本
-│   │   ├── app.conf          # ngnix 配置
-│   │   ├── ci.sh             # ci脚本
-│   │   ├── Dockerfile        # docker 配置
-│   │   ├── Jenkinsfile       # jenkins 配置
-│   ├── webpack               # webpack 配置
-├── public                    # 静态文件目录
-│   ├── index.html            # 页面静态文件
+│   │   ├── env
+│   │   │   ├── .env              
+│   │   │   ├── .env.dev          
+│   │   │   ├── .env.prod          
+│   │   │   ├── .env.uat    
+│   │   ├── helper      
+│   ├── script                # 构建脚本
+│   │   ├── ci.js             # 小程序构建上传
 ├── src                       # 源码目录
 │   ├── __tests__             # 测试文件目录
 │   ├── api                   # 调用接口(Service 层调用 Backend) 【 Service 】
@@ -87,19 +82,13 @@ yarn install
 ##### 启动项目
 
 ```shell
-yarn run start
-```
-
-##### 查看项目大小分析
-
-```shell
-yarn run build:analysis
+yarn run dev
 ```
 
 ##### 构建项目
 
 ```shell
-yarn run build:prod
+yarn run build:dev
 ```
 
 ### 代码规范

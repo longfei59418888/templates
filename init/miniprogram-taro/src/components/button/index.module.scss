@@ -1,0 +1,53 @@
+.button {
+  font-weight: 500;
+  line-height: 1;
+  font-family: 'PingFang SC';
+  white-space: nowrap;
+
+  &.buttonDefault {
+    color: #fff;
+    background-color: #000;
+  }
+
+  &.buttonMini {
+    padding: 0 28px;
+    font-size: 20px;
+    height: 40px;
+    &.buttonRound {
+      border-radius: 40px;
+    }
+  }
+
+  &.buttonSmall {
+    padding: 0 32px;
+    font-size: 24px;
+    height: 56px;
+    &.buttonRound {
+      border-radius: 56px;
+    }
+  }
+
+  &.buttonMedium {
+    padding: 0 48px;
+    font-size: 28px;
+    height: 72px;
+    &.buttonRound {
+      border-radius: 72px;
+    }
+  }
+
+  &.buttonLarge {
+    padding: 0 296px;
+    font-size: 36px;
+    height: 96px;
+    &.buttonRound {
+      border-radius: 96px;
+    }
+  }
+
+  &.buttonDisabled {
+    color: #fff;
+    background-color: #999;
+    border-color: #999;
+  }
+}

@@ -1,0 +1,15 @@
+.container {
+  left: 0;
+  top: 0;
+  z-index: 999;
+  > view {
+    position: relative;
+    z-index: 9;
+    &:first-child {
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      top: 0;
+    }
+  }
+}
