@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env APP_ENV=development next dev --turbopack",
+    "start": "cross-env APP_ENV=development next dev --turbopack",
     "build:master": "cross-env APP_ENV=production next build && cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next/",
-    "start": "PORT=80 node .next/standalone/server.js",
+    "start:dev": "PORT=80 node .next/standalone/server.js",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
