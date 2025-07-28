@@ -1,0 +1,169 @@
+import { Meta, Canvas, Title } from '@storybook/blocks';
+import * as GridStory from './index.stories';
+
+<Meta of={GridStory} />
+
+<Title>Grid 自动布局</Title>
+<Canvas
+  of={GridStory.Demo1}
+  source={{
+    code: `
+      <div className="ml-auto mr-auto grid grid-cols-[1fr_1fr_2fr] gap-6 mt-3">
+        <div className="bg-amber-300 h-10"></div>
+        <div className="bg-amber-300 h-10"></div>
+        <div className="bg-amber-300 h-10"></div>
+        <div className="bg-amber-300 h-10"></div>
+      </div>
+  `,
+  }}
+/>
+
+<Title>Grid 自动布局 定宽</Title>
+<Canvas
+  of={GridStory.Demo2}
+  source={{
+    code: `
+      <div className="ml-auto mr-auto grid grid-cols-[1fr_100px_2fr] gap-6 mt-3">
+        <div className="bg-amber-300 h-10"></div>
+        <div className="bg-amber-300 h-10"></div>
+        <div className="bg-amber-300 h-10"></div>
+        <div className="bg-amber-300 h-10"></div>
+      </div>
+  `,
+  }}
+/>
+
+<Title>Grid 响应式布局【最少宽度300】</Title>
+<Canvas
+  of={GridStory.Demo3}
+  source={{
+    code: `
+      <div className="ml-auto mr-auto grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-6 mt-3">
+        <div className="bg-amber-300 h-10"></div>
+        <div className="bg-amber-300 h-10"></div>
+        <div className="bg-amber-300 h-10"></div>
+        <div className="bg-amber-300 h-10"></div>
+        <div className="bg-amber-300 h-10"></div>
+      </div>
+  `,
+  }}
+/>
+
+<Title>Grid 不定宽自定排列</Title>
+<Canvas
+  of={GridStory.Demo4}
+  source={{
+    code: `
+      <div className="ml-auto mr-auto grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] grid-flow-row-dense gap-6 mt-3">
+        <div className="bg-amber-300 h-10"></div>
+        <div className="bg-amber-300 h-10"></div>
+        <div className="bg-amber-300 h-10 col-start-[span_2] "></div>
+        <div className="bg-amber-300 h-10"></div>
+        <div className="bg-amber-300 h-10"></div>
+        <div className="bg-amber-300 h-10"></div>
+      </div>
+  `,
+  }}
+/>
+
+<Title>Grid 瀑布流</Title>
+<Canvas
+  of={GridStory.Demo5}
+  source={{
+    code: `
+      <style>
+      body {
+        margin: 0;
+      }
+      .masonry {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0 60px;
+        grid-auto-rows: 1px;
+        align-items: end;
+      }
+      .item {
+        background: #f8f8fa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+          @media (min-width: 1280px) and (max-width: 1920px) {
+            .masonry {
+              grid-template-columns: repeat(3, 1fr);
+            }
+          }
+          @media (min-width: 768px) and (max-width: 1280px) {
+            .masonry {
+              grid-template-columns: repeat(3, 1fr);
+            }
+          }
+          @media (max-width: 768px) {
+            .masonry {
+              grid-template-columns: repeat(1, 1fr);
+            }
+          }
+        </style>
+      </head>
+
+  <body>
+    <div class="masonry">
+      <div class="item">item1</div>
+      <div class="item">item2</div>
+      <div class="item">item3</div>
+      <div class="item">item4</div>
+      <div class="item">item5</div>
+      <div class="item">item6</div>
+      <div class="item">item7</div>
+      <div class="item">item8</div>
+      <div class="item">item9</div>
+      <div class="item">item10</div>
+      <div class="item">item11</div>
+      <div class="item">item12</div>
+      <div class="item">item13</div>
+      <div class="item">item14</div>
+      <div class="item">item15</div>
+      <div class="item">item16</div>
+      <div class="item">item17</div>
+      <div class="item">item18</div>
+      <div class="item">item19</div>
+      <div class="item">item20</div>
+      <div class="item">item21</div>
+      <div class="item">item22</div>
+      <div class="item">item23</div>
+      <div class="item">item24</div>
+      <div class="item">item25</div>
+    </div>
+
+        <script>
+          // 给每个元素模拟随机高度
+          window.addEventListener('load', () => {
+            document.querySelectorAll('.masonry > .item').forEach((item) => {
+              const h = Math.floor(Math.random() * 200) + 100
+              item.style.height = h + 'px';
+        });
+      });
+
+          const calcRows = () => {
+            const masonry = document.querySelector('.masonry');
+            const items = masonry.querySelectorAll('.item');
+            // 获取当前列数
+            const cols =
+              getComputedStyle(masonry).gridTemplateColumns.split(' ').length;
+            items.forEach((item, index) => {
+              // 给需要上下间隔的元素增加上间隔（每列第一个元素无需上间隔）
+              const gapRows = index >= cols ? 8 : 0;
+              // 根据元素高度设置元素的需占行数
+              const rows = item.clientHeight + gapRows;
+              item.style.gridRowEnd = "span "+ rows;
+        });
+      };
+
+          window.addEventListener('resize', calcRows);
+          window.addEventListener('load', calcRows)
+        </script>
+
+`,
+}}
+/>

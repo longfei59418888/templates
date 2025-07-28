@@ -1,0 +1,451 @@
+{
+  "app": {
+    "language": {
+      "English": "English",
+      "Chinese": "简体中文"
+    },
+    "back": "Kembali"
+  },
+  "home": {
+    "input": {
+      "placeholder": "Tempel URL Anda....",
+      "button": "Unduh",
+      "tips": "*KAMI TIDAK MENGIZINKAN/MENDUKUNG PENGUNDUHAN MATERI YANG DILINDUNGI HAK CIPTA!",
+      "support": "Sumber video yang didukung：YouTube；Platform yang didukung: Windows、macOS、Android、Linux",
+      "errorTips": "Bukan tautan YouTube yang valid",
+      "loadingTip": "Video berhasil dimuat dan sedang diproses untuk diunduh.",
+      "downloadError": "Kesalahan saat mengunduh."
+    },
+    "faqEditorsChoice": "Pilihan Editor",
+    "blogTitle": "Blog Getytmp3",
+    "blogDes": "Ringkasan",
+    "blogBtnText": "Lihat Semua Postingan Blog",
+    "Features": "Fitur",
+    "footer": {
+      "converter": "Konverter",
+      "more": "Tautan Lainnya",
+      "languages": "Bahasa",
+      "about": "Tentang Kami",
+      "contact": "Hubungi Kami",
+      "blog": "Blog",
+      "privacy": "Kebijakan Privasi",
+      "question": "Pertanyaan",
+      "protocol": "Protokol",
+      "term": "Ketentuan Layanan"
+    },
+    "toMp3": {
+      "title": "YouTube ke MP3",
+      "description": "Ubah dan unduh video YouTube favorit Anda dengan alat online tercepat dan paling andal yang tersedia. Kami menyediakan solusi mulus untuk menyimpan video YouTube apa pun sebagai file MP4 berkualitas tinggi atau ekstrak audionya menjadi MP3 yang jernih. Layanan kami sepenuhnya gratis, tidak memerlukan instalasi perangkat lunak, dan berfungsi tanpa pendaftaran apa pun. Dapatkan unduhan tak terbatas hingga resolusi 4K dan lewati batasan unduhan YouTube dengan mudah untuk penayangan offline permanen di perangkat apa pun.",
+      "faqTitle": "Panduan Utama Anda untuk Konversi YouTube ke MP3",
+      "featureTitle": "Mengapa lebih banyak orang memilih konverter YouTube ke MP3 kami?",
+      "features": [
+        {
+          "title": "Konversi Tanpa Batas & Gratis",
+          "description": "Gunakan konverter YouTube ke MP3 gratis kami secara online sebanyak yang Anda inginkan. Tidak ada batas harian, tidak ada biaya tersembunyi."
+        },
+        {
+          "title": "Keluaran Audio Berkualitas Tinggi",
+          "description": "Dapatkan <strong>YouTube ke MP3 berkualitas tinggi</strong> (hingga 320 kbps). Kami juga mendukung format lossless seperti <strong>YouTube ke WAV</strong> untuk audiophile."
+        },
+        {
+          "title": "Konversi Cepat & Efisien",
+          "description": "Sebagai <strong>konverter YouTube ke MP3 cepat</strong>, alat kami menyiapkan unduhan Anda dalam hitungan detik, bukan menit."
+        },
+        {
+          "title": "Alat Online Sederhana (Tanpa Software)",
+          "description": "Mudah <strong>konversi YouTube ke MP3 tanpa software</strong>. Cukup tempel URL, klik, dan unduh langsung dari browser Anda."
+        },
+        {
+          "title": "Bekerja di Perangkat Apa Pun",
+          "description": "Konverter kami sepenuhnya responsif. Gunakan <strong>YouTube ke MP3 di ponsel</strong>, tablet, atau desktop dengan pengalaman yang sama mulusnya."
+        },
+        {
+          "title": "Unduhan Aman & Terlindungi",
+          "description": "Keamanan Anda adalah prioritas kami. Kami menyediakan pengalaman <strong>pengunduh YouTube ke MP3 yang aman</strong>, dipindai dari virus dan bebas dari iklan yang mengganggu."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Bagaimana cara mengonversi video YouTube menjadi file MP3?",
+          "answer": "Ini proses sederhana tiga langkah:<br/>1. Tempel URL: Salin tautan video YouTube dan tempel ke dalam kotak input kami.<br/>2. Pilih Format: Pilih MP3 sebagai format keluaran yang diinginkan.<br/>3. Unduh: Klik tombol \"Convert\", lalu klik \"Download\" setelah siap."
+        },
+        {
+          "question": "Bagaimana kualitas file MP3 yang dikonversi?",
+          "answer": "Kualitas file MP3 yang dikonversi bergantung pada video asli dan pengaturan yang dipilih. Anda dapat memilih dari opsi kualitas yang tersedia sebelum mengunduh."
+        },
+        {
+          "question": "Apakah konverter YouTube ke MP3 ini benar-benar gratis?",
+          "answer": "Ya, konverter kami 100% gratis untuk digunakan tanpa biaya tersembunyi."
+        },
+        {
+          "question": "Apakah saya perlu menginstal perangkat lunak atau mendaftar akun?",
+          "answer": "Tidak. Alat kami sepenuhnya online dan bekerja langsung di browser web Anda. Tidak perlu instalasi perangkat lunak atau pendaftaran."
+        },
+        {
+          "question": "Apakah aman menggunakan konverter online ini?",
+          "answer": "Ya. Kami menggunakan koneksi HTTPS yang aman dan secara teratur memindai layanan kami untuk memastikan bebas dari malware dan virus."
+        },
+        {
+          "question": "Bisakah saya menggunakan konverter ini di ponsel saya (Android/iPhone)?",
+          "answer": "Tentu saja. Situs kami sepenuhnya ramah seluler dan berfungsi di Android, iPhone, dan tablet tanpa perlu aplikasi."
+        },
+        {
+          "question": "Seberapa cepat proses konversinya?",
+          "answer": "Konversi biasanya hanya memerlukan beberapa detik, berkat encoder kecepatan tinggi kami. Kecepatannya bisa sedikit bervariasi tergantung panjang video."
+        },
+        {
+          "question": "Bisakah saya mengunduh seluruh playlist YouTube ke MP3?",
+          "answer": "Saat ini, alat kami mendukung konversi video tunggal. Untuk playlist, Anda harus menempelkan setiap tautan video secara individu."
+        }
+      ],
+      "reviewTitle": "Bagaimana kreator bisa meraih sukses lewat YouTube ke MP3?",
+      "btnText": " YouTube ke MP3"
+    },
+    "toAAC": {
+      "title": "YouTube ke AAC",
+      "description": "Selamat datang di <strong>konverter YouTube ke AAC</strong> online terbaik. Jika Anda perlu <strong>mengunduh audio YouTube</strong> dalam format AAC berkualitas tinggi, Anda berada di tempat yang tepat. Alat kami membuatnya sangat mudah untuk <strong>mengonversi video YouTube</strong> ke file AAC. Cepat, gratis, dan bekerja langsung di browser Anda tanpa perlu menginstal perangkat lunak.",
+      "faqTitle": "Segala Hal tentang Layanan YouTube ke AAC Kami",
+      "faq": [
+        {
+          "question": "Bagaimana cara menggunakan konverter YouTube ke AAC?",
+          "answer": "Sangat sederhana. Pertama, salin tautan video YouTube. Kedua, tempel di kotak masukan di situs kami. Ketiga, klik tombol \"Convert\" untuk mendapatkan tautan unduhan AAC."
+        },
+        {
+          "question": "Apakah lebih baik mengonversi YouTube ke AAC atau MP3?",
+          "answer": ""
+        },
+        {
+          "question": "Bisakah saya mengunduh video YouTube di ponsel saya?",
+          "answer": ""
+        },
+        {
+          "question": "Apakah konverter YouTube online ini aman digunakan?",
+          "answer": "Tentu saja. Kami menyediakan layanan yang aman dan anonim. Kami tidak memiliki pop‑up invasif atau meminta Anda menginstal perangkat lunak yang meragukan untuk mendapatkan unduhan YouTube Anda."
+        },
+        {
+          "question": "Apa itu file AAC?",
+          "answer": "AAC adalah format file audio, seperti MP3. Ini adalah format standar untuk iTunes, Apple Music, dan YouTube. Dikenal lebih efisien dan memberikan suara fidelity tinggi."
+        },
+        {
+          "question": "Apakah legal mengonversi video YouTube ke AAC?",
+          "answer": "Anda hanya boleh mengunduh video yang Anda miliki izin dari pemegang hak cipta. Mengunduh konten tanpa izin bertentangan dengan ketentuan layanan YouTube. Kami mendorong Anda mengonversi konten domain publik atau milik Anda sendiri."
+        },
+        {
+          "question": "Apakah kalian menyimpan file yang saya konversi?",
+          "answer": "Tidak. Privasi Anda terjamin. Semua konversi diproses di server kami dan tautan unduh bersifat sementara. Kami tidak menyimpan atau mencatat file yang Anda konversi."
+        },
+        {
+          "question": "Bisakah saya mengonversi satu playlist YouTube ke AAC?",
+          "answer": "Ya, bisa. Fitur pengunduhan playlist YouTube kami dirancang untuk ini. Cukup tempel URL playlist, dan alat kami akan mengambil semua video untuk dikonversi ke AAC."
+        }
+      ],
+      "featureTitle": "Fitur-fitur Konverter YouTube ke AAC Kami",
+      "features": [
+        {
+          "title": "Konversi Gratis & Tanpa Batas",
+          "description": "Konverter <strong>free YouTube ke AAC</strong> kami tidak memiliki batas harian. Anda dapat <strong>mengunduh video YouTube</strong> sebagai file AAC sepanjang hari tanpa biaya atau batasan."
+        },
+        {
+          "title": "Pemrosesan Berkecepatan Tinggi",
+          "description": "Nikmati konversi cepat. Tautan <strong>video YouTube dan unduhan</strong> Anda akan siap dalam sekejap, memberikan file AAC yang Anda butuhkan tanpa menunggu lama seperti di situs lain."
+        },
+        {
+          "title": "Audio Berkualitas Tertinggi",
+          "description": "Alat kami mengekstrak bitrate tertinggi yang memungkinkan (<strong>highest possible bitrate</strong>) dari video sumber, memastikan file AAC Anda memiliki suara yang jernih dan kaya. Jangan puas dengan kualitas rendah."
+        },
+        {
+          "title": "Dukungan Playlist YouTube",
+          "description": "Ingin <strong>mengunduh seluruh playlist YouTube</strong>? Tidak masalah. Tempel URL playlist dan konverter kami dapat memproses beberapa video sekaligus, menghemat waktu dan tenaga."
+        },
+        {
+          "title": "Kompatibilitas Universal",
+          "description": "Baik Anda menggunakan PC, Mac, iPhone, atau Android, alat kami adalah satu‑satunya <strong>solusi unduhan YouTube</strong> yang Anda butuhkan untuk file AAC. Bekerja mulus pada browser modern apa pun."
+        },
+        {
+          "title": "Aman dan Terlindungi",
+          "description": "Privasi Anda adalah prioritas kami. Kami memastikan setiap <strong>download video YouTube</strong> aman dengan enkripsi HTTPS. Kami tidak menyimpan data Anda atau meminta informasi pribadi."
+        }
+      ],
+      "reviewTitle": "Bagaimana kreator dapat meraih sukses melalui YouTube ke AAC?",
+      "btnText": " YouTube ke AAC"
+    },
+    "toFlac": {
+      "title": "YouTube ke FLAC",
+      "description": "Selamat datang di alat online utama untuk mengonversi video YouTube ke FLAC. Jika Anda menginginkan audio lossless kualitas tinggi yang paling murni, konverter <strong>YouTube ke FLAC</strong> kami adalah pilihan terbaik Anda. Rasakan kekuatan solusi unduhan YouTube yang cepat, gratis, dan andal yang mempertahankan setiap detail asli suara.",
+      "faqTitle": "Semua yang Perlu Anda Ketahui Tentang Layanan <strong>YouTube ke FLAC</strong> Kami",
+      "faq": [
+        {
+          "question": "Bagaimana cara menggunakan konverter <strong>YouTube ke FLAC</strong>?",
+          "answer": "Ini sangat mudah. 1. Temukan video YouTube yang Anda inginkan dan salin URL-nya. 2. Tempelkan URL ke kotak input konverter kami. 3. Klik tombol 'Convert' dan file FLAC berkualitas tinggi Anda akan siap diunduh dalam beberapa saat."
+        },
+        {
+          "question": "Mengapa memilih FLAC daripada MP3?",
+          "answer": "Meskipun MP3 umum, itu format \"lossy\", yang berarti data audio dihapus permanen untuk mengecilkan ukuran file. FLAC (Free Lossless Audio Codec) adalah \"lossless\", mempertahankan 100% data audio asli. Untuk kualitas audio yang sesungguhnya bagi para audiophile dari unduhan YouTube, FLAC adalah opsi superior."
+        },
+        {
+          "question": "Apa sebenarnya file FLAC itu?",
+          "answer": "FLAC adalah format audio open‑source yang terkenal karena kompresi lossless‑nya. Ini berarti ukuran file audio dikurangi tanpa mengorbankan kualitas, tidak seperti MP3 atau AAC. Format ini sempurna untuk mengarsipkan musik dengan kualitas asli."
+        },
+        {
+          "question": "Apakah FLAC lebih baik daripada WAV?",
+          "answer": "Baik FLAC maupun WAV adalah format lossless, menawarkan kualitas suara identik. Namun, file FLAC secara signifikan lebih kecil daripada file WAV (biasanya 40‑60% lebih kecil) karena kompresi yang efisien. Untuk menghemat ruang tanpa mengorbankan kualitas, konverter <strong>YouTube ke FLAC</strong> kami adalah pilihan cerdas."
+        },
+        {
+          "question": "Apakah legal mengonversi video YouTube ke FLAC?",
+          "answer": "Anda hanya boleh mengunduh dan mengonversi konten jika Anda memiliki izin dari pemilik hak cipta. Menggunakan layanan kami untuk mengunduh materi berhak cipta tanpa izin melanggar ketentuan layanan YouTube. Selalu hormati hak kekayaan intelektual."
+        },
+        {
+          "question": "Apakah konverter YouTube online ini aman?",
+          "answer": "Ya. Kami memprioritaskan keamanan dan privasi Anda. Platform kami bebas dari malware dan iklan mengganggu. Setiap unduhan video diproses dengan aman, dan kami tidak pernah menyimpan data atau riwayat unduhan."
+        },
+        {
+          "question": "Bisakah saya mengedit file FLAC?",
+          "answer": "Tentu. FLAC didukung secara luas oleh perangkat lunak pengedit audio profesional dan gratis di Windows dan macOS. Ini pilihan terbaik untuk proyek yang memerlukan fidelitas audio tertinggi selama pengeditan."
+        },
+        {
+          "question": "Apakah alat ini mendukung unduhan playlist YouTube?",
+          "answer": "Ya, mendukung. Anda dapat mengonversi seluruh playlist YouTube ke FLAC dengan satu URL. Fitur konversi batch kami memudahkan mengunduh banyak video sekaligus, menghemat banyak waktu dan tenaga."
+        }
+      ],
+      "featureTitle": "Fitur dari Konverter <strong>YouTube ke FLAC</strong> Kami",
+      "features": [
+        {
+          "title": "Audio sepenuhnya lossless",
+          "description": "Alat kami mengekstrak aliran audio asli dan mengonversinya ke FLAC, format yang menjamin tanpa kehilangan kualitas. Sempurna untuk audiophile dan pengarsipan musik."
+        },
+        {
+          "title": "Konversi gratis tanpa batas",
+          "description": "Gunakan konverter gratis <strong>YouTube ke FLAC</strong> kami sesering yang Anda inginkan. Tidak ada batasan atau limit harian untuk unduhan YouTube Anda."
+        },
+        {
+          "title": "Pemrosesan berkecepatan tinggi",
+          "description": "Server kami yang kuat memastikan video YouTube Anda diproses dan dikonversi dalam hitungan detik, bukan menit."
+        },
+        {
+          "title": "Dukungan playlist YouTube",
+          "description": "Hemat waktu dengan mengonversi playlist seluruhnya. Tempelkan URL playlist untuk mengunduh semua video dalam format FLAC kualitas tinggi sekaligus."
+        },
+        {
+          "title": "Kompatibilitas universal",
+          "description": "Alat berbasis web kami bekerja di perangkat apa pun dengan browser, termasuk Windows, macOS, Android, dan iOS. Tidak perlu instalasi perangkat lunak."
+        },
+        {
+          "title": "Aman dan terpercaya",
+          "description": "Kami menjamin pengalaman yang aman dan anonim. Privasi Anda terlindungi dan setiap unduhan aman."
+        }
+      ],
+      "reviewTitle": "Bagaimana kreator bisa meraih sukses dengan <strong>YouTube ke FLAC</strong>?",
+      "btnText": " YouTube ke FLAC"
+    },
+    "toMp4": {
+      "title": "YouTube ke MP4",
+      "faqTitle": "Semua yang Perlu Anda Ketahui Tentang Layanan YouTube ke MP4 Kami",
+      "featureTitle": "Fitur dari Konverter YouTube ke MP4 Kami",
+      "reviewTitle": "Bagaimana kreator bisa sukses dengan YouTube ke MP4?",
+      "btnText": " YouTube ke MP4",
+      "description": "Ubah dan unduh video YouTube apa pun secara instan ke file MP4 berkualitas tinggi. Gratis, cepat, dan berfungsi di semua perangkat tanpa perlu menginstal perangkat lunak.",
+      "faq": [
+        {
+          "question": "Apa kualitas video tertinggi yang bisa saya unduh?",
+          "answer": "Anda dapat mengunduh video dalam resolusi tertinggi yang tersedia di YouTube, termasuk 720p (HD), 1080p (Full HD), 1440p (2K), dan 2160p (4K). Pilihan kualitas tergantung pada kualitas video asli yang diunggah."
+        },
+        {
+          "question": "Apakah aman mengunduh file MP4 menggunakan konverter ini?",
+          "answer": ""
+        },
+        {
+          "question": "Bisakah saya mengonversi seluruh playlist YouTube ke MP4?",
+          "answer": ""
+        },
+        {
+          "question": "Apakah saya perlu membayar atau mendaftar untuk menggunakan layanan ini?",
+          "answer": "Tidak. Konverter YouTube ke MP4 kami 100% gratis dan tidak memerlukan pendaftaran. Anda dapat langsung menggunakannya tanpa memberikan informasi pribadi apa pun."
+        },
+        {
+          "question": "Bagaimana konverter online lebih baik daripada perangkat lunak desktop?",
+          "answer": "Konverter online menawarkan kenyamanan tanpa tanding. Anda tidak perlu menginstal atau memperbarui perangkat lunak apa pun, bekerja di semua sistem operasi (Windows, macOS, Linux, Android, iOS), dan tidak membebani sumber daya perangkat Anda. Ini adalah cara tercepat untuk mendapatkan video Anda."
+        },
+        {
+          "question": "Apakah file MP4 yang diunduh akan menyertakan audio?",
+          "answer": "Ya. Format MP4 adalah kontainer yang mencakup aliran video dan audio. Saat Anda mengonversi video YouTube ke MP4 menggunakan alat kami, file yang diunduh akan berisi video lengkap dengan audio yang sinkron, persis seperti aslinya."
+        },
+        {
+          "question": "Selain video, bisakah saya mengunduh YouTube Shorts ke MP4?",
+          "answer": "Ya. Alat kami bekerja sempurna untuk YouTube Shorts, vlog, tutorial, video musik, dan konten video lainnya di platform YouTube. Cukup salin dan tempel tautannya."
+        },
+        {
+          "question": "Apakah legal mengonversi video YouTube ke MP4?",
+          "answer": "Legalitasnya tergantung pada status hak cipta video dan tujuan penggunaan Anda. Umumnya legal mengunduh konten tanpa hak cipta atau menyimpannya untuk tontonan pribadi secara offline. Kami mendorong semua pengguna untuk menghormati hukum hak cipta dan ketentuan layanan YouTube."
+        }
+      ],
+      "features": [
+        {
+          "title": "Unduhan Video HD & 4K",
+          "description": "Dapatkan <strong>unduhan video YouTube</strong> dengan kualitas terbaik, mendukung resolusi dari definisi standar hingga 4K yang tajam."
+        },
+        {
+          "title": "Unduhan YouTube Tercepat",
+          "description": "Nikmati <strong>unduhan YouTube</strong> tercepat, karena server kuat kami mengonversi video hanya dalam beberapa detik."
+        },
+        {
+          "title": "Konverter YouTube ke MP4 yang Benar-Benar Gratis",
+          "description": "Ini adalah <strong>konverter YouTube ke MP4 gratis</strong> 100%, menawarkan unduhan tanpa batas tanpa pendaftaran atau biaya tersembunyi."
+        },
+        {
+          "title": "Tanpa Aplikasi, Hanya Gunakan Browser Anda",
+          "description": "Lewati kebutuhan akan <strong>unduhan aplikasi YouTube</strong>; alat kami bekerja langsung di browser di PC, Mac, atau perangkat seluler apa pun."
+        },
+        {
+          "title": "Cara Mengunduh Video YouTube Secara Instan",
+          "description": "Kami memberikan jawaban paling sederhana untuk <strong>cara mengunduh video YouTube</strong> — cukup tempel tautannya dan alat kami akan menangani sisanya."
+        },
+        {
+          "title": "Unduhan Video yang Aman & Terlindungi",
+          "description": "<strong>Unduh video YouTube</strong> dengan aman di platform kami yang dilindungi SSL, yang dijamin bebas dari malware atau iklan yang mengganggu."
+        }
+      ]
+    },
+    "toWav": {
+      "title": "YouTube ke WAV",
+      "faqTitle": "Semua yang Perlu Anda Ketahui Tentang Layanan YouTube ke WAV Kami",
+      "featureTitle": "Fitur dari Konverter YouTube ke WAV Kami",
+      "reviewTitle": "Bagaimana pembuat konten dapat meraih sukses melalui YouTube - ke - WAV?",
+      "btnText": " YouTube ke WAV",
+      "description": "Selamat datang di konverter youtube ke wav online terbaik. Jika Anda perlu <strong>mengunduh audio video youtube</strong> dengan kualitas tertinggi, Anda berada di tempat yang tepat. Alat kami memudahkan untuk <strong>mengonversi video YouTube</strong> ke file WAV. Ini adalah solusi <strong>download youtube</strong> yang cepat, gratis, dan efektif.",
+      "faq": [
+        {
+          "question": "Bagaimana cara menggunakan konverter YouTube ke WAV?",
+          "answer": "Ini cara termudah untuk melakukan <strong>download video youtube</strong>. Pertama, salin URL video YouTube. Kedua, tempelkan ke <strong>konverter youtube</strong> kami. Ketiga, klik tombol 'Convert' untuk mendapatkan file WAV Anda."
+        },
+        {
+          "question": "Mengapa saya harus mengonversi YouTube ke WAV daripada MP3?",
+          "answer": "Meskipun <strong>youtube ke mp3</strong> populer, WAV adalah format lossless, artinya itu adalah salinan tepat dari audio asli tanpa kehilangan kualitas. Pilih WAV untuk fidelitas tertinggi, terutama jika Anda berencana mengedit audio."
+        },
+        {
+          "question": "Apa itu file WAV?",
+          "answer": "WAV (Waveform Audio File Format) adalah format file audio tanpa kompresi. Ini adalah standar untuk audio berkualitas studio, menjadikannya pilihan profesional untuk <strong>download youtube</strong> Anda."
+        },
+        {
+          "question": "Apakah file WAV besar?",
+          "answer": "Ya, karena tidak terkompresi, file WAV lebih besar daripada MP3. Ini adalah pertukaran untuk mendapatkan kualitas terbaik dari <strong>download video youtube</strong> Anda."
+        },
+        {
+          "question": "Apakah legal mengonversi video YouTube ke WAV?",
+          "answer": "Anda hanya boleh <strong>mengunduh video youtube</strong> yang Anda miliki izin. Mengunduh materi berhak cipta tanpa izin pemilik melanggar ketentuan layanan YouTube."
+        },
+        {
+          "question": "Apakah konverter YouTube online ini aman digunakan?",
+          "answer": "Tentu saja. Kami menyediakan cara aman untuk <strong>mengunduh konten youtube</strong> secara anonim. Layanan <strong>youtube ke wav</strong> kami bebas dari pop-up atau malware."
+        },
+        {
+          "question": "Bisakah saya mengedit file WAV?",
+          "answer": "Ya, WAV adalah format terbaik untuk pengeditan. Kompatibel dengan semua perangkat lunak audio utama, menjadikannya output sempurna untuk <strong>download video youtube</strong> Anda."
+        },
+        {
+          "question": "Bisakah saya mengunduh seluruh playlist YouTube?",
+          "answer": "Ya. Fitur <strong>download playlist youtube</strong> kami mendukung konversi batch. Tempelkan URL playlist untuk <strong>mengunduh video youtube</strong> dalam format WAV sekaligus."
+        }
+      ],
+      "features": [
+        {
+          "title": "Audio Benar-Benar Lossless",
+          "description": "Alat kami mengekstrak audio asli yang tidak terkompresi. Konversi <strong>YouTube ke WAV</strong> untuk mendapatkan suara kualitas studio. Sempurna untuk audiophile."
+        },
+        {
+          "title": "Konversi Gratis Tanpa Batas",
+          "description": "Konverter YouTube ke WAV gratis kami tidak memiliki batas harian. Anda dapat melakukan sebanyak mungkin <strong>download youtube</strong> sesuai kebutuhan."
+        },
+        {
+          "title": "Proses Kecepatan Tinggi",
+          "description": "Rasakan <strong>download video youtube</strong> yang cepat. Tautan Anda akan siap dalam sekejap, memberikan file WAV tanpa penundaan lama."
+        },
+        {
+          "title": "Dukungan Playlist YouTube",
+          "description": "Ingin mengunduh seluruh playlist YouTube? Tidak masalah. Tempel URL playlist untuk menangani beberapa <strong>download video youtube</strong> sekaligus."
+        },
+        {
+          "title": "Kompatibilitas Universal",
+          "description": "Baik di PC atau Mac, alat kami adalah satu-satunya solusi <strong>download youtube</strong> yang Anda butuhkan untuk file WAV. Berfungsi di semua browser."
+        },
+        {
+          "title": "Aman dan Terpercaya",
+          "description": "Privasi Anda adalah prioritas kami. Setiap <strong>download video YouTube</strong> aman. Kami tidak menyimpan data Anda atau meminta informasi pribadi."
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "openGraph": {
+      "title": "title",
+      "description": "description",
+      "keywords": "keywords"
+    },
+    "twitter": {
+      "title": "title",
+      "description": "description",
+      "keywords": "keywords"
+    },
+    "/": {
+      "title": "Ubah YouTube ke MP3 Gratis & Cepat - GetYTMP3",
+      "description": "Ubah dan unduh video YouTube ke audio MP3 berkualitas tinggi secara instan. GetYTMP3 adalah konverter online yang cepat, gratis, dan aman untuk semua perangkat. Tidak perlu registrasi atau instal software.",
+      "keywords": "YouTube to MP3, ubah YouTube ke MP3, download lagu dari YouTube, getytmp3"
+    },
+    "/to-aac": {
+      "title": "Ubah YouTube ke AAC Gratis (Audio Kualitas Tinggi) - GetYTMP3",
+      "description": "Ubah video YouTube ke format audio fidelitas tinggi AAC. GetYTMP3 menawarkan solusi online yang cepat, gratis, dan aman untuk kualitas suara superior, cocok untuk audiophile. Tidak perlu registrasi.",
+      "keywords": "YouTube to AAC, ubah YouTube ke AAC, audio kualitas tinggi, download audio YouTube, getytmp3"
+    },
+    "/to-mp4": {
+      "title": "Ubah Video YouTube ke MP4 Gratis - GetYTMP3",
+      "description": "Ubah dan unduh video YouTube ke MP4 dalam kualitas HD dengan cepat. GetYTMP3 adalah alat online yang cepat, gratis, dan aman untuk menyimpan video favorit Anda. Berfungsi di perangkat apa pun, tanpa perlu software.",
+      "keywords": "YouTube to MP4, ubah YouTube ke MP4, download video YouTube, video YouTube ke MP4, getytmp3"
+    },
+    "/to-wav": {
+      "title": "Ubah YouTube ke WAV Gratis (Audio Lossless) - GetYTMP3",
+      "description": "Ubah video YouTube ke format WAV lossless dengan GetYTMP3. Unduh audio dalam kualitas asli tanpa kompresi, cocok untuk pengeditan dan pengarsipan profesional. Cepat, gratis, dan tidak perlu registrasi.",
+      "keywords": "YouTube to WAV, ubah YouTube ke WAV, audio lossless, audio tanpa kompresi, getytmp3"
+    },
+    "/to-flac": {
+      "title": "Ubah YouTube ke FLAC Gratis (Audio Kompresi Lossless) - GetYTMP3",
+      "description": "Ubah YouTube ke FLAC untuk audio fidelitas tinggi yang terkompresi tanpa kehilangan kualitas. GetYTMP3 memungkinkan Anda menyimpan musik dengan kualitas sempurna dalam ukuran file yang lebih kecil dari WAV. Ideal untuk kolektor.",
+      "keywords": "YouTube to FLAC, ubah YouTube ke FLAC, audio lossless, audio kompresi lossless, getytmp3"
+    },
+    "/blog": {
+      "title": "Blog GetYTMP3: Tips YouTube, Panduan Audio & Berita Konverter",
+      "description": "Jelajahi blog GetYTMP3 untuk tips terbaru tentang pengunduhan YouTube, panduan mendalam tentang format audio (MP3, AAC, FLAC), dan berita tentang konverter kami. Sumber andalan Anda untuk semua hal tentang audio online.",
+      "keywords": "tips YouTube, panduan audio, blog musik, format audio, unduh video, berita konverter"
+    },
+    "/contact": {
+      "title": "Hubungi GetYTMP3",
+      "description": "Dukungan, Pertanyaan & Umpan Balik",
+      "keywords": "Punya pertanyaan atau butuh dukungan? Hubungi tim GetYTMP3 di sini. Kami menerima umpan balik, pertanyaan, dan saran Anda untuk meningkatkan layanan kami."
+    },
+    "/privacy": {
+      "title": "Kebijakan Privasi - GetYTMP3",
+      "description": "Data & Keamanan Anda",
+      "keywords": "Baca Kebijakan Privasi resmi GetYTMP3. Pelajari cara kami menangani data Anda, memastikan keamanan dengan SSL, dan melindungi privasi Anda. Kami tidak menyimpan file atau riwayat Anda."
+    },
+    "/faq": {
+      "title": "FAQ - GetYTMP3",
+      "description": "Pertanyaan yang Sering Diajukan",
+      "keywords": "Temukan jawaban untuk pertanyaan umum tentang GetYTMP3. Pelajari tentang format yang didukung, kualitas file, kompatibilitas perangkat, keamanan, dan cara menggunakan konverter YouTube kami."
+    },
+    "/about": {
+      "title": "`Tentang GetYTMP3",
+      "description": "Misi Kami untuk Konversi YouTube Berkualitas`",
+      "keywords": "Pelajari tentang tim dan kisah di balik GetYTMP3. Misi kami adalah menyediakan konverter YouTube yang cepat, aman, dan ramah pengguna untuk format MP3, MP4, dan lainnya berkualitas tinggi."
+    },
+    "/term": {
+      "title": "Ketentuan Layanan & Penafian - GetYTMP3",
+      "description": "Baca Ketentuan Layanan resmi untuk GetYTMP3. Dengan menggunakan layanan kami, Anda menyetujui ketentuan ini mengenai tanggung jawab pengguna, hak cipta, dan kewajiban.",
+      "keywords": "ketentuan layanan getytmp3, penafian getytmp3, hukum, perjanjian pengguna, kebijakan hak cipta"
+    }
+  },
+  "content": {
+    "contact": "Jika Anda memiliki pertanyaan, keluhan, atau klaim terkait Layanan kami, silakan kirim pesan kepada kami di: akimuldavid705@gmail.com",
+    "about": "Selamat datang di getytmp3, tujuan utama Anda untuk konversi YouTube yang cepat, gratis, dan berkualitas tinggi. Perjalanan kami dimulai dengan misi sederhana namun kuat: menciptakan konverter YouTube ke MP3 paling intuitif dan andal yang tersedia secara online.<br/>Kami melihat kebutuhan akan alat yang tidak hanya kuat tetapi juga bersih, aman, dan menghormati pengguna. Kami lelah menjelajahi situs yang dipenuhi iklan, menghadapi kecepatan unduhan yang lambat, dan meragukan keamanan data kami. Itulah sebabnya kami membangun getytmp3—solusi lengkap untuk setiap kebutuhan unduhan YouTube dengan kemudahan tak tertandingi. Apakah Anda ingin mengunduh video YouTube dalam format MP4, atau mengekstrak audio berkualitas tinggi dalam format WAV atau FLAC, platform kami dirancang untuk pengalaman tanpa hambatan.<br/>Filosofi inti kami berpusat pada Anda. Kami berkomitmen menyediakan layanan yang dapat diakses oleh siapa pun, di perangkat apa pun, tanpa perlu menginstal perangkat lunak. Kami mengutamakan keamanan Anda, memastikan setiap unduhan video YouTube diproses dalam lingkungan yang aman, bebas dari malware dan pop-up yang mengganggu.<br/>getytmp3 lebih dari sekadar konverter; ini adalah alat yang dibangun oleh tim yang bersemangat untuk membuat konten digital dapat diakses oleh kreator, pendidik, dan pengguna di seluruh dunia. Kami terus berkembang, menyempurnakan teknologi kami untuk menghadirkan kecepatan tertinggi dan kualitas terbaik. Terima kasih telah memilih kami. Kami bangga menjadi solusi utama Anda untuk semua kebutuhan konversi YouTube.",
+    "privacy": "1. PendahuluanSelamat datang di getytmp3 (\"kami\"). Kami berkomitmen untuk melindungi privasi Anda. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, mengungkapkan, dan melindungi informasi Anda saat Anda menggunakan situs web dan layanan kami.<br/>2. Informasi yang Kami KumpulkanKami membatasi pengumpulan data kami seminimal mungkin untuk menyediakan dan meningkatkan Layanan.<br/>● Informasi yang Anda Berikan: Satu-satunya informasi yang Anda berikan secara aktif adalah URL video YouTube yang ingin Anda konversi. Kami tidak memerlukan akun atau data pribadi seperti nama atau email Anda.<br/>● Informasi yang Dikumpulkan Otomatis (Log Data): Saat Anda mengakses layanan kami, server kami secara otomatis mencatat data yang dikirim browser Anda, seperti alamat IP, jenis browser, halaman yang dikunjungi, waktu kunjungan, dll.<br/>●File yang Diunggah dan Dikonversi: Kami memproses URL video YouTube yang Anda berikan secara sementara untuk mengubahnya menjadi format yang Anda inginkan. File konversi tersedia untuk diunduh untuk waktu terbatas.<br/>3. Bagaimana Kami Menggunakan Informasi AndaKami hanya menggunakan data untuk:<br/>● Menyediakan dan Memelihara Layanan<br/>● Meningkatkan Layanan<br/>● Menjaga Keamanan<br/>4. Penyimpanan & Keamanan DataKami tidak menyimpan file secara permanen. Semua file akan dihapus setelah beberapa jam. Tidak ada histori pengguna yang disimpan. Semua lalu lintas dienkripsi dengan SSL.<br/>5. CookieKami menggunakan cookie untuk pengalaman pengguna yang lebih baik. Anda dapat menonaktifkannya melalui pengaturan browser.<br/>6. Tautan Pihak KetigaKami tidak bertanggung jawab atas konten atau kebijakan privasi dari situs pihak ketiga.<br/>7. Privasi Anak-AnakLayanan kami tidak ditujukan untuk anak di bawah 13 tahun.<br/>8. Perubahan KebijakanKami dapat memperbarui kebijakan ini sewaktu-waktu dan akan menampilkannya di halaman ini.<br/>9. Hubungi KamiUntuk pertanyaan tentang kebijakan privasi ini, hubungi kami melalui formulir kontak situs kami.",
+    "question": "<strong>1. Bagaimana cara menggunakan getytmp3 untuk mengonversi video YouTube?</strong><br/>Sangat mudah, cukup ikuti tiga langkah:<br/>Salin URL video YouTube yang ingin Anda konversi.<br/>Tempel URL tersebut ke kotak input di beranda kami.<br/>Pilih format yang diinginkan (MP3, MP4) dan klik tombol \"Konversi\".<br/><strong>2. Apakah layanan ini benar-benar gratis?</strong><br/>Ya, 100% gratis. Tidak ada biaya tersembunyi atau langganan.<br/><strong>3. Apakah saya perlu menginstal perangkat lunak atau membuat akun?</strong><br/>Tidak. Semua proses dilakukan di situs kami tanpa instalasi atau registrasi.<br/><strong>4. Apakah aman mengunduh dari getytmp3?</strong><br/>Ya. Kami menggunakan enkripsi SSL dan tidak menyimpan data Anda. Semua file diambil langsung dari server YouTube.<br/><strong>5. Format apa saja yang didukung?</strong><br/>Audio: MP3, AAC, WAV, FLAC<br/>Video: MP4<br/><strong>6. Apakah ada batasan jumlah atau durasi video?</strong><br/>Tidak. Anda dapat mengonversi sebanyak yang Anda inginkan.<br/><strong>7. Apakah ini bekerja di perangkat seluler?</strong><br/>Ya. Situs kami kompatibel dengan semua perangkat, termasuk Android & iOS.<br/><strong>8. Bagaimana kualitas file yang dikonversi?</strong><br/>Audio hingga 320kbps dan FLAC lossless. Video sesuai kualitas tertinggi di YouTube.<br/><strong>9. Berapa lama tautan unduhan tersedia?</strong><br/>Tautan tersedia selama beberapa jam saja.<br/><strong>10. Apakah mengunduh video YouTube itu legal?</strong><br/>Layanan kami adalah alat teknis. Anda bertanggung jawab untuk menghormati hukum hak cipta.",
+    "term": "1. Informasi Umum Informasi dan layanan yang diberikan oleh getymp3 (\"kami,\" \"kita,\" atau \"milik kami\") di situs web ini hanya untuk tujuan informasi umum dan penggunaan pribadi. Dengan menggunakan Layanan kami, Anda mengakui dan setuju dengan ketentuan yang tercantum dalam penyangkalan ini.<br/>2. Tanpa Jaminan Layanan kami disediakan \"sebagaimana adanya\" dan \"sebagaimana tersedia.\" Kami tidak memberikan pernyataan atau jaminan apapun, baik secara tersurat maupun tersirat, mengenai operasi Layanan kami atau informasi, konten, atau materi yang disertakan di dalamnya. Kami tidak menjamin bahwa Layanan kami akan berjalan tanpa gangguan, tepat waktu, aman, bebas dari kesalahan, atau bebas dari virus atau komponen berbahaya lainnya.<br/>3. Hak Cipta dan Tanggung Jawab Penggunaan getymp3 adalah alat teknis. Kami tidak menghosting, menyimpan, atau mendistribusikan konten yang dilindungi hak cipta. Layanan kami hanya mengambil dan mengonversi konten dari URL yang diberikan oleh pengguna.<br/>●<br/>Tanggung Jawab Pengguna: Anda, sebagai pengguna, sepenuhnya bertanggung jawab untuk memastikan bahwa Anda memiliki hak hukum untuk mengakses, mengonversi, dan mengunduh konten dari URL yang diberikan. Anda harus menghormati hak kekayaan intelektual orang lain.<br/>●<br/>Penggunaan yang Diizinkan: Layanan ini ditujukan untuk mengonversi dan mengunduh konten yang Anda miliki, yang berada di domain publik, atau yang Anda telah mendapatkan izin eksplisit dari pemegang hak cipta.<br/>●<br/>Tidak Ada Dukungan: Kami tidak berafiliasi dengan YouTube atau platform pihak ketiga lainnya. Kami tidak mendukung atau membenarkan pelanggaran hak cipta. Setiap penggunaan layanan kami yang melanggar hukum adalah dilarang keras dan sepenuhnya menjadi tanggung jawab pengguna.<br/>4. Batasan Tanggung Jawab Dalam hal apapun getymp3, direktur, karyawan, mitra, agen, atau afiliasinya tidak bertanggung jawab atas kerusakan tidak langsung, insidental, khusus, konsekuensial, atau hukuman, termasuk namun tidak terbatas pada kehilangan keuntungan, data, penggunaan, goodwill, atau kerugian tidak berwujud lainnya yang diakibatkan oleh:<br/>●<br/>Akses atau penggunaan Anda, atau ketidakmampuan untuk mengakses atau menggunakan, Layanan.<br/>●<br/>Perilaku atau konten pihak ketiga pada Layanan.<br/>●<br/>Konten apa pun yang diperoleh dari Layanan.<br/>●<br/>Akses tidak sah, penggunaan, atau perubahan transmisi atau konten Anda.<br/>Penggunaan layanan kami sepenuhnya atas risiko Anda sendiri.<br/>5. Tautan Eksternal Layanan kami mungkin berisi tautan ke situs web atau layanan pihak ketiga yang tidak dimiliki atau dikendalikan oleh kami. Kami tidak memiliki kontrol atas, dan tidak bertanggung jawab atas konten, kebijakan privasi, atau praktik situs atau layanan pihak ketiga manapun.<br/>6. Perubahan pada Penyangkalan Ini Kami berhak untuk mengubah atau mengganti Penyangkalan ini kapan saja. Adalah tanggung jawab Anda untuk secara berkala meninjau halaman ini untuk perubahan. Penggunaan Layanan setelah adanya perubahan merupakan penerimaan Anda terhadap Penyangkalan yang baru.<br/>7. Penerimaan Ketentuan Ini Dengan menggunakan Layanan ini, Anda menyatakan penerimaan Anda terhadap Penyangkalan ini. Jika Anda tidak setuju dengan penyangkalan ini, mohon jangan gunakan Layanan kami."
+  }
+}

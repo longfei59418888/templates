@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import './vars.css';
+@import './variant/dark.css';
+@import './theme/color.css';
+@import './theme/font.css';
+@import './theme/breakpoint.css';
+@import './theme/utilities.css';
+@import './init.css';

@@ -1,0 +1,12 @@
+@theme {
+  /** font-sans */
+  --font-sans:
+    ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+  /** font-thin  */
+  --font-weight-thin: 100;
+
+  /** text-xs */
+  --text-xs: 0.75rem;
+  --text-xs--line-height: calc(1 / 0.75);
+}

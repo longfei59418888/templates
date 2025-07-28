@@ -1,0 +1,451 @@
+{
+  "app": {
+    "language": {
+      "English": "English",
+      "Chinese": "简体中文"
+    },
+    "back": "Voltar"
+  },
+  "home": {
+    "input": {
+      "placeholder": "Cole sua URL....",
+      "button": "Baixar",
+      "tips": "*NÓS NÃO PERMITIMOS/NÃO APOIAMOS O DOWNLOAD DE MATERIAL COM DIREITOS AUTORAIS!",
+      "support": "Fonte de vídeo compatível：YouTube；Plataformas compatíveis: Windows、macOS、Android、Linux",
+      "errorTips": "Não é um link válido do YouTube",
+      "loadingTip": "O vídeo foi carregado com sucesso e está sendo processado para download.",
+      "downloadError": "Erro no download."
+    },
+    "faqEditorsChoice": "Escolha dos editores",
+    "blogTitle": "Blog do Getytmp3",
+    "blogDes": "Resumo",
+    "blogBtnText": "Ver todas as postagens do blog",
+    "Features": "Recursos",
+    "footer": {
+      "converter": "Conversor",
+      "more": "Mais Links",
+      "languages": "Idiomas",
+      "about": "Sobre nós",
+      "contact": "Contate-nos",
+      "blog": "Blog",
+      "privacy": "Política de Privacidade",
+      "question": "Pergunta",
+      "protocol": "Protocolo",
+      "term": "Termos de Serviço"
+    },
+    "toMp3": {
+      "title": "YouTube para MP3",
+      "description": "Converta e baixe facilmente seus vídeos favoritos do YouTube com a ferramenta online mais rápida e confiável disponível. Oferecemos uma solução perfeita para salvar qualquer vídeo do YouTube como um arquivo MP4 de alta qualidade ou extrair o áudio em um MP3 cristalino. Nosso serviço é completamente gratuito, não requer instalação de software e funciona sem qualquer registro. Faça downloads ilimitados de até resolução 4K e contorne facilmente as limitações de download do YouTube para visualização offline permanente em qualquer dispositivo.",
+      "faqTitle": "Seu Guia Definitivo para Conversão de YouTube para MP3",
+      "featureTitle": "Por que mais pessoas escolhem nosso conversor de YouTube para MP3?",
+      "features": [
+        {
+          "title": "Conversões Ilimitadas e Gratuitas",
+          "description": "Use nosso conversor gratuito de YouTube para MP3 online quantas vezes quiser. Sem limites diários, sem custos ocultos."
+        },
+        {
+          "title": "Saída de Áudio de Alta Qualidade",
+          "description": "Obtenha <strong>YouTube para MP3 em alta qualidade</strong> (até 320 kbps). Também suportamos formatos lossless como <strong>YouTube para WAV</strong> para audiófilos."
+        },
+        {
+          "title": "Conversão Rápida e Eficiente",
+          "description": "Como um <strong>conversor rápido de YouTube para MP3</strong>, nossa ferramenta prepara seu download em segundos, não minutos."
+        },
+        {
+          "title": "Ferramenta Online Simples (Sem Software Necessário)",
+          "description": "Converta facilmente <strong>YouTube para MP3 sem software</strong>. Basta colar a URL, clicar e baixar diretamente do seu navegador."
+        },
+        {
+          "title": "Funciona em Qualquer Dispositivo",
+          "description": "Nosso conversor é totalmente responsivo. Use o <strong>YouTube para MP3 no celular</strong>, tablet ou desktop com a mesma experiência perfeita."
+        },
+        {
+          "title": "Downloads Seguros e Protegidos",
+          "description": "Sua segurança é nossa prioridade. Oferecemos uma experiência <strong>baixador seguro de YouTube para MP3</strong>, escaneada contra vírus e livre de anúncios invasivos."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Como converto um vídeo do YouTube em um arquivo MP3?",
+          "answer": "É um processo simples de três etapas:<br/>1. Cole a URL: Copie o link do vídeo do YouTube e cole na nossa caixa de entrada.<br/>2. Escolha o Formato: Selecione MP3 como formato desejado.<br/>3. Baixar: Clique no botão \"Converter\" e depois em \"Baixar\" quando estiver pronto."
+        },
+        {
+          "question": "Qual é a qualidade dos arquivos MP3 convertidos?",
+          "answer": "A qualidade dos arquivos MP3 convertidos depende do vídeo original e das configurações escolhidas. Você pode selecionar entre as opções de qualidade disponíveis antes do download."
+        },
+        {
+          "question": "Este conversor de YouTube para MP3 é realmente gratuito?",
+          "answer": "Sim, nosso conversor é 100% gratuito para uso, sem cobranças ocultas."
+        },
+        {
+          "question": "Preciso instalar algum software ou registrar uma conta?",
+          "answer": "Não. Nossa ferramenta é totalmente online e funciona diretamente no navegador. Não é necessário instalar software ou registrar-se."
+        },
+        {
+          "question": "É seguro usar este conversor online?",
+          "answer": "Sim. Usamos conexões HTTPS seguras e escaneamos regularmente nosso serviço para garantir que esteja livre de malware e vírus."
+        },
+        {
+          "question": "Posso usar este conversor no meu celular (Android/iPhone)?",
+          "answer": "Absolutamente. Nosso site é totalmente móvel e funciona em Android, iPhone e tablets sem precisar de nenhum aplicativo."
+        },
+        {
+          "question": "Quão rápido é o processo de conversão?",
+          "answer": "A conversão geralmente leva apenas alguns segundos, graças aos nossos codificadores de alta velocidade. A velocidade pode variar ligeiramente conforme o comprimento do vídeo."
+        },
+        {
+          "question": "Posso baixar uma playlist inteira do YouTube para MP3?",
+          "answer": "Atualmente, nossa ferramenta suporta conversão de vídeos individuais. Para playlists, você precisa colar cada link de vídeo individualmente."
+        }
+      ],
+      "reviewTitle": "Como criadores podem alcançar sucesso com YouTube para MP3?",
+      "btnText": " YouTube para MP3"
+    },
+    "toAAC": {
+      "title": "YouTube para AAC",
+      "description": "Bem‑vindo ao melhor <strong>conversor de YouTube para AAC</strong> online. Se precisar <strong>baixar áudio do YouTube</strong> em formato AAC de alta qualidade, você está no lugar certo. Nossa ferramenta torna incrivelmente simples <strong>converter vídeos do YouTube</strong> para arquivos AAC. É rápido, gratuito e funciona diretamente no seu navegador, sem precisar instalar nenhum software.",
+      "faqTitle": "Tudo sobre o nosso serviço YouTube para AAC",
+      "faq": [
+        {
+          "question": "Como uso o conversor de YouTube para AAC?",
+          "answer": "É incrivelmente simples. Primeiro, copie o link de um vídeo do YouTube. Depois, cole-o na caixa de entrada no nosso site. Em seguida, clique no botão \"Convert\" para obter o link de download AAC."
+        },
+        {
+          "question": "É melhor converter do YouTube para AAC ou MP3?",
+          "answer": ""
+        },
+        {
+          "question": "Posso baixar vídeos do YouTube no meu celular?",
+          "answer": ""
+        },
+        {
+          "question": "Este conversor online do YouTube é seguro?",
+          "answer": "Com certeza. Oferecemos um serviço seguro e anônimo. Não temos pop‑ups invasivos nem pedimos para instalar softwares duvidosos para obter seu download do YouTube."
+        },
+        {
+          "question": "O que é um arquivo AAC?",
+          "answer": "AAC é um formato de arquivo de áudio, assim como MP3. É o formato padrão para iTunes, Apple Music e YouTube. É conhecido por ser mais eficiente e proporcionar som de maior fidelidade."
+        },
+        {
+          "question": "É legal converter vídeos do YouTube para AAC?",
+          "answer": "Você deve baixar vídeos somente se tiver permissão do titular dos direitos autorais. É contra os termos de serviço do YouTube baixar conteúdo sem consentimento. Incentivamos que você converta conteúdos de domínio público ou seus próprios."
+        },
+        {
+          "question": "Vocês armazenam os arquivos que eu converto?",
+          "answer": "Não. Sua privacidade é garantida. Todas as conversões são processadas em nossos servidores e os links de download são temporários. Não armazenamos nem registramos os arquivos que você converte."
+        },
+        {
+          "question": "Posso converter uma playlist inteira do YouTube para AAC?",
+          "answer": "Sim, você pode. Nosso recurso de download de playlists do YouTube foi criado para isso. Basta colar o URL da playlist, e nossa ferramenta buscará todos os vídeos para converter para AAC."
+        }
+      ],
+      "featureTitle": "Recursos do nosso conversor YouTube para AAC",
+      "features": [
+        {
+          "title": "Conversões ilimitadas e gratuitas",
+          "description": "Nosso <strong>conversor gratuito de YouTube para AAC</strong> não tem limites diários. Você pode <strong>baixar vídeos do YouTube</strong> como arquivos AAC o dia todo, sem custo ou restrições."
+        },
+        {
+          "title": "Processamento em alta velocidade",
+          "description": "Tenha conversões rápidas. Seu <strong>vídeo do YouTube e link de download</strong> estarão prontos num instante, entregando o arquivo AAC que você precisa sem as longas esperas comuns em outros sites."
+        },
+        {
+          "title": "Áudio da mais alta qualidade",
+          "description": "Nossa ferramenta extrai a <strong>maior taxa de bits possível</strong> do vídeo fonte, garantindo que seus arquivos AAC tenham som cristalino e rico. Não aceite qualidade inferior."
+        },
+        {
+          "title": "Suporte a playlists do YouTube",
+          "description": "Quer <strong>baixar uma playlist inteira do YouTube</strong>? Sem problemas. Cole o URL da playlist e nosso conversor pode processar vários vídeos de uma vez, economizando tempo e esforço."
+        },
+        {
+          "title": "Compatibilidade universal",
+          "description": "Se você usa PC, Mac, iPhone ou Android, nossa ferramenta é a única <strong>solução de download do YouTube</strong> que você precisa para arquivos AAC. Funciona perfeitamente em qualquer navegador moderno."
+        },
+        {
+          "title": "Seguro e protegido",
+          "description": "Sua privacidade é nossa prioridade. Garantimos que cada <strong>download de vídeo do YouTube</strong> seja seguro com criptografia HTTPS. Não armazenamos seus dados nem pedimos informações pessoais."
+        }
+      ],
+      "reviewTitle": "Como os criadores podem alcançar sucesso com YouTube para AAC?",
+      "btnText": " YouTube para AAC"
+    },
+    "toFlac": {
+      "title": "YouTube para FLAC",
+      "description": "Bem-vindo à principal ferramenta online para converter vídeos do YouTube em FLAC. Se você exige o áudio lossless de alta fidelidade mais puro, nosso conversor <strong>YouTube para FLAC</strong> é sua melhor escolha. Experimente o poder de uma solução de download do YouTube rápida, gratuita e confiável que preserva cada detalhe original do som.",
+      "faqTitle": "Tudo que Você Precisa Saber Sobre Nosso Serviço <strong>YouTube para FLAC</strong>",
+      "faq": [
+        {
+          "question": "Como usar o conversor <strong>YouTube para FLAC</strong>?",
+          "answer": "É extremamente simples. 1. Encontre o vídeo no YouTube desejado e copie seu URL. 2. Cole o URL na caixa de entrada do nosso conversor. 3. Clique no botão 'Convert' e seu arquivo FLAC de alta qualidade estará pronto para download em instantes."
+        },
+        {
+          "question": "Por que escolher FLAC em vez de MP3?",
+          "answer": "Embora o MP3 seja comum, é um formato \"lossy\", o que significa que dados de áudio são permanentemente removidos para reduzir o tamanho do arquivo. O FLAC (Free Lossless Audio Codec) é \"lossless\", preservando 100% dos dados de áudio originais. Para qualidade verdadeira de audiófilo em um download do YouTube, FLAC é a opção superior."
+        },
+        {
+          "question": "O que exatamente é um arquivo FLAC?",
+          "answer": "FLAC é um formato de áudio open‑source renomado por sua compressão lossless. Isso significa que ele reduz o tamanho do arquivo de áudio sem sacrificar qualidade, ao contrário do MP3 ou AAC. É o formato perfeito para arquivar música em sua glória original."
+        },
+        {
+          "question": "FLAC é melhor que WAV?",
+          "answer": "Tanto FLAC quanto WAV são formatos lossless, oferecendo qualidade sonora idêntica. Contudo, arquivos FLAC são significativamente menores que arquivos WAV (geralmente 40‑60% menores) devido à compressão eficiente. Para economizar espaço sem comprometer qualidade, nosso conversor <strong>YouTube para FLAC</strong> é a escolha mais inteligente."
+        },
+        {
+          "question": "É legal converter vídeos do YouTube em FLAC?",
+          "answer": "Você deve baixar e converter conteúdo apenas quando tiver permissão do detentor dos direitos autorais. O uso do nosso serviço para baixar material protegido sem consentimento viola os termos de serviço do YouTube. Respeite sempre os direitos de propriedade intelectual."
+        },
+        {
+          "question": "Este conversor online do YouTube é seguro?",
+          "answer": "Sim. Priorizamos sua segurança e privacidade. Nossa plataforma está livre de malware e anúncios intrusivos. Cada download de vídeo é processado com segurança e nunca armazenamos seus dados ou histórico de conversão."
+        },
+        {
+          "question": "Posso editar arquivos FLAC?",
+          "answer": "Com certeza. FLAC é amplamente suportado por softwares de edição de áudio profissionais e gratuitos tanto no Windows quanto no macOS. É uma excelente escolha para projetos que exigem a mais alta fidelidade durante a edição."
+        },
+        {
+          "question": "Esta ferramenta suporta download de playlists do YouTube?",
+          "answer": "Sim, suporta. Você pode converter toda uma playlist do YouTube para FLAC com um único URL. Nosso recurso de conversão em lote facilita baixar vários vídeos de uma vez, economizando tempo e esforço."
+        }
+      ],
+      "featureTitle": "Recursos do nosso conversor <strong>YouTube para FLAC</strong>",
+      "features": [
+        {
+          "title": "Áudio completamente lossless",
+          "description": "Nossa ferramenta extrai o fluxo de áudio original e converte para FLAC, um formato que garante zero perda de qualidade. Perfeito para audiófilos e arquivamento musical."
+        },
+        {
+          "title": "Conversões ilimitadas e gratuitas",
+          "description": "Use nosso conversor gratuito <strong>YouTube para FLAC</strong> tanto quanto quiser. Não há restrições ou limites diários para seus downloads do YouTube."
+        },
+        {
+          "title": "Processamento em alta velocidade",
+          "description": "Nossos servidores poderosos garantem que seu download de vídeo seja processado e convertido em segundos, não minutos."
+        },
+        {
+          "title": "Suporte a playlists do YouTube",
+          "description": "Economize tempo convertendo playlists inteiras. Cole o URL da playlist para baixar todos os vídeos em FLAC de alta qualidade de uma só vez."
+        },
+        {
+          "title": "Compatibilidade universal",
+          "description": "Nossa ferramenta baseada na web funciona em qualquer dispositivo com navegador, incluindo Windows, macOS, Android e iOS. Não é necessário instalar software."
+        },
+        {
+          "title": "Seguro e confiável",
+          "description": "Garantimos uma experiência segura e anônima. Sua privacidade é protegida e cada download é seguro."
+        }
+      ],
+      "reviewTitle": "Como os criadores podem alcançar sucesso com <strong>YouTube para FLAC</strong>?",
+      "btnText": " YouTube para FLAC"
+    },
+    "toMp4": {
+      "title": "YouTube para MP4",
+      "faqTitle": "Tudo o que você precisa saber sobre nosso serviço de YouTube para MP4",
+      "featureTitle": "Recursos do nosso conversor de YouTube para MP4",
+      "reviewTitle": "Como os criadores podem alcançar o sucesso com o YouTube para MP4?",
+      "btnText": " YouTube para MP4",
+      "description": "Converta e baixe instantaneamente qualquer vídeo do YouTube em um arquivo MP4 de alta qualidade. Grátis, rápido e funciona em qualquer dispositivo sem precisar instalar software.",
+      "faq": [
+        {
+          "question": "Qual é a maior qualidade de vídeo que posso baixar?",
+          "answer": "Você pode baixar vídeos na maior resolução disponível no YouTube, incluindo 720p (HD), 1080p (Full HD), 1440p (2K) e 2160p (4K). As opções de qualidade dependem da qualidade do vídeo original enviado."
+        },
+        {
+          "question": "É seguro baixar arquivos MP4 usando este conversor?",
+          "answer": ""
+        },
+        {
+          "question": "Posso converter uma playlist inteira do YouTube para MP4?",
+          "answer": ""
+        },
+        {
+          "question": "Preciso pagar ou me registrar para usar este serviço?",
+          "answer": "Não. Nosso conversor de YouTube para MP4 é 100% gratuito e não requer registro. Você pode começar a usá-lo imediatamente sem fornecer nenhuma informação pessoal."
+        },
+        {
+          "question": "Como um conversor online é melhor do que um software de desktop?",
+          "answer": "Um conversor online oferece conveniência incomparável. Você não precisa instalar ou atualizar nenhum software, funciona em qualquer sistema operacional (Windows, macOS, Linux, Android, iOS), e não consome recursos do seu dispositivo. É a maneira mais rápida de obter seu vídeo."
+        },
+        {
+          "question": "O arquivo MP4 baixado incluirá o áudio?",
+          "answer": "Sim. O formato MP4 é um contêiner que contém fluxos de vídeo e áudio. Ao converter um vídeo do YouTube para MP4 com nossa ferramenta, o arquivo baixado terá o vídeo completo com o áudio sincronizado, assim como o original."
+        },
+        {
+          "question": "Além de vídeos, posso baixar Shorts do YouTube em MP4?",
+          "answer": "Sim. Nossa ferramenta funciona perfeitamente com YouTube Shorts, Vlogs, tutoriais, videoclipes e qualquer outro conteúdo do YouTube. Basta copiar e colar o link."
+        },
+        {
+          "question": "É legal converter vídeos do YouTube para MP4?",
+          "answer": "A legalidade depende do status de direitos autorais do vídeo e do seu uso pretendido. Geralmente é legal baixar conteúdo sem direitos autorais ou salvar uma cópia para visualização offline pessoal. Incentivamos todos os usuários a respeitar as leis de direitos autorais e os termos de serviço do YouTube."
+        }
+      ],
+      "features": [
+        {
+          "title": "Download de Vídeo em HD e 4K",
+          "description": "Obtenha a melhor qualidade de <strong>download de vídeo do YouTube</strong>, com suporte para resoluções desde definição padrão até 4K nítido."
+        },
+        {
+          "title": "O Download Mais Rápido do YouTube",
+          "description": "Experimente o <strong>download do YouTube</strong> mais rápido, com nossos servidores potentes convertendo qualquer vídeo em apenas alguns segundos."
+        },
+        {
+          "title": "Conversor YouTube para MP4 100% Gratuito",
+          "description": "Este é um <strong>conversor gratuito de YouTube para MP4</strong>, oferecendo downloads ilimitados sem registro ou taxas ocultas."
+        },
+        {
+          "title": "Sem Aplicativo, Apenas Seu Navegador",
+          "description": "Esqueça a necessidade de um <strong>aplicativo de download do YouTube</strong>; nossa ferramenta funciona diretamente no navegador em qualquer PC, Mac ou dispositivo móvel."
+        },
+        {
+          "title": "Como Baixar Vídeos do YouTube Instantaneamente",
+          "description": "Oferecemos a resposta mais simples sobre <strong>como baixar vídeos do YouTube</strong> — basta colar o link e nossa ferramenta faz o resto."
+        },
+        {
+          "title": "Downloads de Vídeos Seguros e Protegidos",
+          "description": "<strong>Baixe vídeos do YouTube</strong> com segurança em nossa plataforma protegida por SSL, garantida livre de malware ou anúncios invasivos."
+        }
+      ]
+    },
+    "toWav": {
+      "title": "YouTube para WAV",
+      "faqTitle": "Tudo o Que Você Precisa Saber Sobre Nosso Serviço de YouTube para WAV",
+      "featureTitle": "Recursos do Nosso Conversor de YouTube para WAV",
+      "reviewTitle": "Como os criadores podem alcançar sucesso através do YouTube - para - WAV?",
+      "btnText": " YouTube para WAV",
+      "description": "Bem-vindo ao melhor conversor online de youtube para wav. Se você precisa <strong>baixar áudio de vídeo do youtube</strong> na mais alta qualidade, você está no lugar certo. Nossa ferramenta torna simples <strong>converter vídeos do YouTube</strong> para arquivos WAV. É uma solução rápida, gratuita e eficaz para <strong>download de youtube</strong>.",
+      "faq": [
+        {
+          "question": "Como usar o conversor de YouTube para WAV?",
+          "answer": "É a forma mais simples de fazer um <strong>download de vídeo do youtube</strong>. Primeiro, copie a URL do vídeo do YouTube. Segundo, cole no nosso <strong>conversor de youtube</strong>. Terceiro, clique no botão 'Converter' para obter seu arquivo WAV."
+        },
+        {
+          "question": "Por que devo converter YouTube para WAV ao invés de MP3?",
+          "answer": "Enquanto o <strong>youtube para mp3</strong> é popular, WAV é um formato sem perda, significando que é uma cópia exata do áudio original sem perda de qualidade. Escolha WAV para a mais alta fidelidade, especialmente se planeja editar o áudio."
+        },
+        {
+          "question": "O que é um arquivo WAV?",
+          "answer": "WAV (Waveform Audio File Format) é um formato de arquivo de áudio não comprimido. É um padrão para áudio de qualidade de estúdio, tornando-se uma escolha profissional para seu <strong>download do youtube</strong>."
+        },
+        {
+          "question": "Arquivos WAV são grandes?",
+          "answer": "Sim, porque são não comprimidos, arquivos WAV são maiores que MP3s. Essa é a troca para obter a melhor qualidade do seu <strong>download de vídeo do youtube</strong>."
+        },
+        {
+          "question": "É legal converter vídeos do YouTube para WAV?",
+          "answer": "Você deve somente <strong>baixar vídeos do youtube</strong> para os quais tem permissão. Baixar material protegido por direitos autorais sem consentimento do dono é contra os termos de serviço do YouTube."
+        },
+        {
+          "question": "Este conversor online de YouTube é seguro para usar?",
+          "answer": "Absolutamente. Fornecemos uma maneira segura de <strong>baixar conteúdo do youtube</strong> anonimamente. Nosso serviço de <strong>youtube para wav</strong> é livre de pop-ups ou malware."
+        },
+        {
+          "question": "Posso editar arquivos WAV?",
+          "answer": "Sim, WAV é o melhor formato para edição. É compatível com todos os principais softwares de áudio, tornando-se a saída perfeita para seu <strong>download de vídeo do youtube</strong>."
+        },
+        {
+          "question": "Posso baixar uma playlist inteira do YouTube?",
+          "answer": "Sim. Nosso recurso de <strong>download de playlist do youtube</strong> suporta conversões em lote. Cole a URL da playlist para <strong>baixar vídeos do youtube</strong> em formato WAV de uma vez."
+        }
+      ],
+      "features": [
+        {
+          "title": "Áudio Verdadeiramente Sem Perdas",
+          "description": "Nossa ferramenta extrai o áudio original, não comprimido. Converta <strong>YouTube para WAV</strong> para obter som com qualidade de estúdio. Perfeito para audiófilos."
+        },
+        {
+          "title": "Conversões Gratuitas Ilimitadas",
+          "description": "Nosso conversor gratuito de YouTube para WAV não tem limites diários. Você pode fazer quantos <strong>downloads de youtube</strong> precisar."
+        },
+        {
+          "title": "Processamento de Alta Velocidade",
+          "description": "Experimente um rápido <strong>download de vídeo do youtube</strong>. Seu link estará pronto num piscar de olhos, entregando o arquivo WAV sem demora."
+        },
+        {
+          "title": "Suporte a Playlist do YouTube",
+          "description": "Quer baixar uma playlist inteira do YouTube? Sem problema. Cole a URL da playlist para lidar com múltiplos <strong>downloads de vídeos do youtube</strong> ao mesmo tempo."
+        },
+        {
+          "title": "Compatibilidade Universal",
+          "description": "Seja em PC ou Mac, nossa ferramenta é a única solução de <strong>download de youtube</strong> que você precisa para arquivos WAV. Funciona em qualquer navegador."
+        },
+        {
+          "title": "Seguro e Protegido",
+          "description": "Sua privacidade é nossa prioridade. Cada <strong>download de vídeo do YouTube</strong> é seguro. Não armazenamos seus dados nem pedimos informações pessoais."
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "openGraph": {
+      "title": "title",
+      "description": "description",
+      "keywords": "keywords"
+    },
+    "twitter": {
+      "title": "title",
+      "description": "description",
+      "keywords": "keywords"
+    },
+    "/": {
+      "title": "Conversor de YouTube para MP3 Grátis - GetYTMP3",
+      "description": "Converta e baixe vídeos do YouTube para áudio MP3 de alta qualidade instantaneamente. GetYTMP3 é um conversor online rápido, gratuito e seguro que funciona em qualquer dispositivo. Não é necessário registro ou software.",
+      "keywords": "YouTube para MP3, conversor YouTube para MP3, baixar musicas do YouTube, getytmp3"
+    },
+    "/to-aac": {
+      "title": "Conversor de YouTube para AAC Grátis (Áudio de Alta Fidelidade) - GetYTMP3",
+      "description": "Converta vídeos do YouTube para o formato de áudio de alta fidelidade AAC. GetYTMP3 oferece uma solução online rápida, gratuita e segura para qualidade de som superior, perfeita para audiófilos. Não é necessário registro.",
+      "keywords": "YouTube para AAC, conversor YouTube para AAC, áudio de alta fidelidade, baixar áudio do YouTube, getytmp3"
+    },
+    "/to-mp4": {
+      "title": "Conversor de YouTube para MP4 Grátis - GetYTMP3",
+      "description": "Converta e baixe vídeos do YouTube para MP4 em qualidade HD rapidamente. GetYTMP3 é uma ferramenta online rápida, gratuita e segura para salvar seus vídeos favoritos. Funciona em qualquer dispositivo, sem software.",
+      "keywords": "YouTube para MP4, conversor YouTube para MP4, baixar vídeos do YouTube, vídeos do YouTube para MP4, getytmp3"
+    },
+    "/to-wav": {
+      "title": "Conversor de YouTube para WAV Grátis (Áudio sem Perdas) - GetYTMP3",
+      "description": "Converta vídeos do YouTube para o formato WAV sem perdas com GetYTMP3. Baixe o áudio em sua qualidade original não compactada, perfeito para edição profissional e arquivamento. Rápido, gratuito e sem necessidade de registro.",
+      "keywords": "YouTube para WAV, conversor YouTube para WAV, áudio sem perdas, áudio não compactado, getytmp3"
+    },
+    "/to-flac": {
+      "title": "Conversor de YouTube para FLAC Grátis (Áudio Compactado sem Perdas) - GetYTMP3",
+      "description": "Converta YouTube para FLAC para obter áudio de alta fidelidade compactado sem perdas. GetYTMP3 permite que você salve músicas com qualidade perfeita em um tamanho de arquivo menor que o WAV. Ideal para colecionadores.",
+      "keywords": "YouTube para FLAC, conversor YouTube para FLAC, áudio sem perdas, áudio compactado, getytmp3"
+    },
+    "/blog": {
+      "title": "Blog GetYTMP3: Dicas de YouTube, Guias de Áudio e Notícias",
+      "description": "Explore o blog GetYTMP3 para as últimas dicas sobre downloads do YouTube, guias detalhados sobre formatos de áudio (MP3, AAC, FLAC) e notícias sobre nosso conversor. Sua fonte de referência para tudo sobre áudio online.",
+      "keywords": "dicas do YouTube, guias de áudio, blog de música, formatos de áudio, baixar vídeos, notícias do conversor"
+    },
+    "/contact": {
+      "title": "Contato GetYTMP3",
+      "description": "Suporte, Dúvidas e Feedback",
+      "keywords": "Tem uma pergunta ou precisa de suporte? Entre em contato com a equipe GetYTMP3 aqui. Agradecemos seu feedback, dúvidas e sugestões para melhorar nosso serviço."
+    },
+    "/privacy": {
+      "title": "Política de Privacidade - GetYTMP3",
+      "description": "Seus Dados e Segurança",
+      "keywords": "Leia a Política de Privacidade oficial do GetYTMP3. Saiba como lidamos com seus dados, garantimos a segurança com SSL e protegemos sua privacidade. Não armazenamos seus arquivos ou histórico."
+    },
+    "/faq": {
+      "title": "FAQ - GetYTMP3",
+      "description": "Perguntas Frequentes",
+      "keywords": "Encontre respostas para perguntas comuns sobre o GetYTMP3. Saiba mais sobre formatos suportados, qualidade de arquivo, compatibilidade de dispositivos, segurança e como usar nosso conversor."
+    },
+    "/about": {
+      "title": "`Sobre o GetYTMP3",
+      "description": "Nossa Missão para Conversões de Qualidade`",
+      "keywords": "Conheça a equipe e a história por trás do GetYTMP3. Nossa missão é fornecer um conversor do YouTube rápido, seguro e fácil de usar para MP3, MP4 e outros formatos de alta qualidade."
+    },
+    "/term": {
+      "title": "Termos de Serviço e Isenção de Responsabilidade - GetYTMP3",
+      "description": "Leia os Termos de Serviço oficiais do GetYTMP3. Ao usar nosso serviço, você concorda com estes termos sobre responsabilidade do usuário, direitos autorais e isenção de responsabilidade.",
+      "keywords": "termos de serviço getytmp3, isenção de responsabilidade getytmp3, legal, acordo de usuário"
+    }
+  },
+  "content": {
+    "contact": "Se você tiver alguma dúvida, reclamação ou reivindicação em relação aos nossos Serviços, por favor envie uma mensagem para: akimuldavid705@gmail.com",
+    "about": "Bem-vindo ao getytmp3, seu destino principal para conversões rápidas, gratuitas e de alta qualidade do YouTube. Nossa jornada começou com uma missão simples, porém poderosa: criar o conversor de YouTube para MP3 mais intuitivo e confiável disponível online. Vimos a necessidade de uma ferramenta que fosse não apenas poderosa, mas também limpa, segura e respeitosa com seus usuários.<br/>Estávamos cansados de navegar em sites cheios de anúncios, enfrentar velocidades lentas de download e questionar a segurança dos nossos dados. Acreditávamos que deveria haver uma maneira melhor. Por isso, criamos o getytmp3 — uma solução completa projetada para atender todas as necessidades de download do YouTube com facilidade incomparável. Seja para baixar vídeos do YouTube em MP4 ou extrair áudio em qualidade cristalina com nossos conversores de YouTube para WAV ou YouTube para FLAC, nossa plataforma é feita para uma experiência perfeita.<br/>Nossa filosofia central é você. Estamos comprometidos em oferecer um serviço acessível a todos, em qualquer dispositivo, sem a necessidade de instalar software. Priorizamos sua segurança, garantindo que todo download de vídeo do YouTube seja processado em um ambiente seguro, livre de malware e anúncios invasivos.<br/>getytmp3 é mais que um conversor; é uma ferramenta criada por uma equipe apaixonada dedicada a tornar o conteúdo digital acessível para criadores, educadores e usuários no mundo todo. Estamos em constante evolução, refinando nossa tecnologia para entregar as velocidades mais rápidas e a melhor qualidade. Obrigado por nos escolher. Estamos empolgados em ser sua solução para todas as suas necessidades de conversão do YouTube.",
+    "privacy": "1. IntroduçãoBem-vindo ao getytmp3 (\"nós,\" \"nos,\" ou \"nosso\"). Estamos comprometidos em proteger sua privacidade. Esta Política de Privacidade explica como coletamos, usamos, divulgamos e protegemos suas informações quando você usa nosso site e serviços (coletivamente, o \"Serviço\"). Ao usar nosso Serviço, você concorda com a coleta e uso das informações conforme esta política.<br/>2. Informações que ColetamosLimitamos nossa coleta de dados ao mínimo absoluto necessário para fornecer e melhorar nosso Serviço.<br/>● Informações que Você Fornece: A única informação que você fornece ativamente é a URL do vídeo do YouTube que deseja converter. Não exigimos que você crie uma conta ou forneça qualquer informação pessoal como nome ou endereço de e-mail.<br/>● Informações Coletadas Automaticamente (Dados de Log): Quando você acessa nosso Serviço, nossos servidores registram automaticamente informações que seu navegador envia. Esses Dados de Log podem incluir informações como o endereço de Protocolo de Internet (\"IP\") do seu computador, tipo de navegador, versão do navegador, as páginas do nosso Serviço que você visita, o horário e data da visita, e outras estatísticas. Essas informações são usadas para fins analíticos para melhorar nosso Serviço e não estão vinculadas a informações pessoalmente identificáveis.<br/>● Arquivos Carregados e Convertidos: Processamos temporariamente a URL do vídeo do YouTube que você fornece para convertê-la no formato desejado (ex.: MP3, MP4, FLAC). Os arquivos convertidos ficam disponíveis para download por um tempo limitado.<br/>3. Como Usamos Suas InformaçõesUsamos as informações coletadas somente para os seguintes propósitos:<br/>● Para Fornecer e Manter Nosso Serviço: Para processar a URL do vídeo do YouTube e permitir a conversão e download do arquivo resultante.<br/>● Para Melhorar Nosso Serviço: Para entender como nossos usuários interagem com nosso site, o que nos ajuda a melhorar a experiência do usuário, aprimorar nossas funcionalidades e otimizar o desempenho.<br/>●<br/>Para Garantir Segurança: Para monitorar e prevenir atividades fraudulentas ou ilegais e manter a segurança do nosso site.<br/>4. Armazenamento e Segurança dos DadosSua privacidade e segurança são nossas maiores prioridades.<br/>● Sem Armazenamento Permanente: Não armazenamos seus vídeos originais do YouTube nem os arquivos convertidos em nossos servidores permanentemente. Todos os arquivos processados são automaticamente deletados de nossos servidores após um curto período (normalmente algumas horas) depois que a conversão é concluída e o download está disponível.<br/>● Sem Histórico do Usuário: Não mantemos registros do seu histórico de downloads ou conversões. Cada visita é tratada como uma sessão nova e anônima.<br/>● Medidas de Segurança: Implementamos várias medidas de segurança para manter a proteção dos dados limitados que processamos. Todo o tráfego é criptografado usando tecnologia SSL (Secure Socket Layer).<br/>5. CookiesUsamos cookies para melhorar sua experiência. Cookies são pequenos arquivos armazenados em seu dispositivo que nos ajudam a entender suas preferências para futuras visitas e compilar dados agregados sobre o tráfego e a interação no site. Isso nos permite oferecer melhores experiências e ferramentas no futuro. Você pode configurar seu navegador para recusar todos os cookies ou indicar quando um cookie está sendo enviado.<br/>6. Links de TerceirosNosso Serviço pode conter links para outros sites que não são operados por nós, como o YouTube. Se você clicar em um link de terceiros, será direcionado ao site desse terceiro. Recomendamos fortemente que você revise a Política de Privacidade de cada site que visita. Não temos controle nem assumimos responsabilidade pelo conteúdo, políticas de privacidade ou práticas de quaisquer sites ou serviços de terceiros.<br/>7. Privacidade das CriançasNosso Serviço não é destinado para uso por crianças menores de 13 anos. Não coletamos conscientemente nenhuma informação pessoal identificável de crianças menores de 13 anos. Se você é pai, mãe ou responsável e sabe que seu filho nos forneceu informações pessoais, entre em contato conosco para que possamos tomar as providências necessárias.<br/>8. Alterações nesta Política de PrivacidadePodemos atualizar nossa Política de Privacidade periodicamente. Notificaremos você sobre quaisquer alterações publicando a nova Política de Privacidade nesta página. Recomendamos que revise esta Política periodicamente para verificar mudanças. As alterações nesta Política de Privacidade entram em vigor assim que forem publicadas nesta página.<br/>9. Contate-NosSe você tiver dúvidas sobre esta Política de Privacidade, entre em contato conosco pelo formulário de contato do nosso site.",
+    "question": "<strong>1. Como uso o getymp3 para converter um vídeo do YouTube?</strong><br/>É um processo simples em três etapas:<br/>Copie a URL do vídeo do YouTube que deseja converter.<br/>Cole a URL na caixa de entrada da nossa página inicial.<br/>Selecione o formato desejado (ex.: MP3, MP4) e clique no botão \"Converter\". Seu download estará pronto em instantes.<br/><strong>2. Este serviço é totalmente gratuito?</strong><br/>Sim, absolutamente. O getymp3 é 100% gratuito para uso. Não há taxas ocultas, custos de assinatura ou cobranças pelos nossos serviços de conversão.<br/><strong>3. Preciso instalar algum software ou registrar uma conta?</strong><br/>Não. Nosso serviço é totalmente baseado na web. Você não precisa instalar nenhum software, extensões de navegador ou criar uma conta para usar nosso conversor. Basta abrir nosso site e você estará pronto para usar.<br/><strong>4. É seguro baixar arquivos do getymp3?</strong><br/>Sim, sua segurança é nossa prioridade. Usamos criptografia SSL para proteger sua conexão com nosso site. Não armazenamos seus dados e garantimos que nosso serviço esteja livre de malware e anúncios invasivos. Os arquivos que você baixa são obtidos diretamente dos servidores do YouTube.<br/><strong>5. Quais formatos de áudio e vídeo vocês suportam?</strong><br/>Suportamos uma ampla variedade de formatos populares para atender todas as suas necessidades, incluindo:<br/>\n● Áudio: MP3, AAC, WAV, FLAC<br/>● Vídeo: MP4<br/><strong>6. Existem limites na quantidade ou duração dos vídeos que posso converter?</strong><br/>\nNão. Oferecemos conversões e downloads ilimitados. Você pode converter quantos vídeos quiser, sem restrições quanto à duração.<br/><strong>7. O conversor funciona em dispositivos móveis (Android/iOS)?</strong><br/>\nSim. Nosso site é totalmente responsivo e projetado para funcionar perfeitamente em qualquer dispositivo moderno, incluindo desktops, laptops, tablets e smartphones (Android e iOS).<br/><strong>8. Qual é a qualidade dos arquivos convertidos?</strong><br/>\nNos esforçamos para fornecer a melhor qualidade possível para todas as conversões. Para áudio, oferecemos arquivos MP3 de até 320kbps e formatos lossless como FLAC. Para vídeo, a qualidade do arquivo baixado corresponderá à maior qualidade disponível para o vídeo original no YouTube.<br/><strong>9. Por quanto tempo meu link de download estará disponível?</strong><br/>\nPor razões de segurança e privacidade, os links de download ficam disponíveis por algumas horas após a conclusão da conversão. Recomendamos que baixe seu arquivo imediatamente após a conversão.<br/><strong>10. É legal baixar vídeos do YouTube?</strong><br/>\nNosso serviço atua como uma ferramenta técnica para converter conteúdo online publicamente disponível. É sua responsabilidade respeitar a lei de direitos autorais. Recomendamos que baixe apenas vídeos para os quais você tenha permissão do proprietário dos direitos autorais, ou vídeos que estejam em domínio público ou disponíveis sob licença Creative Commons. Você não deve usar este serviço para baixar material protegido por direitos autorais sem consentimento.",
+    "term": "1. Informações Gerais As informações e serviços fornecidos pela getymp3 (\"nós,\" \"nos\" ou \"nosso\") neste site são apenas para fins informativos gerais e uso pessoal. Ao usar nosso Serviço, você reconhece e concorda com os termos descritos neste aviso.<br/>2. Sem Garantia Nosso Serviço é fornecido \"no estado em que se encontra\" e \"conforme disponível\". Não fazemos representações ou garantias de qualquer tipo, expressas ou implícitas, sobre a operação do nosso Serviço ou as informações, conteúdos ou materiais incluídos nele. Não garantimos que nosso Serviço será ininterrupto, pontual, seguro, livre de erros ou livre de vírus ou outros componentes nocivos.<br/>3. Direitos Autorais e Responsabilidade de Uso getymp3 é uma ferramenta técnica. Não hospedamos, armazenamos ou distribuímos qualquer conteúdo protegido por direitos autorais. Nosso serviço apenas busca e converte conteúdo dos URLs fornecidos pelo usuário.<br/>●<br/>Responsabilidade Exclusiva do Usuário: Você, o usuário, é o único responsável por garantir que tem o direito legal de acessar, converter e baixar o conteúdo do URL fornecido. Você deve respeitar os direitos de propriedade intelectual de terceiros.<br/>●<br/>Uso Permitido: Este serviço destina-se a converter e baixar conteúdos que você possua, que estejam em domínio público ou para os quais tenha obtido permissão explícita do titular dos direitos autorais.<br/>●<br/>Sem Endosso: Não somos afiliados ao YouTube ou qualquer outra plataforma terceirizada. Não apoiamos nem toleramos a violação de direitos autorais. Qualquer uso infringente do nosso serviço é estritamente proibido e é de única responsabilidade do usuário.<br/>4. Limitação de Responsabilidade Em nenhuma hipótese a getymp3, seus diretores, empregados, parceiros, agentes ou afiliados serão responsáveis por quaisquer danos indiretos, incidentais, especiais, consequenciais ou punitivos, incluindo, sem limitação, perda de lucros, dados, uso, boa vontade ou outras perdas intangíveis, resultantes de:<br/>●<br/>Seu acesso ou uso, ou incapacidade de acessar ou usar, o Serviço.<br/>●<br/>Qualquer conduta ou conteúdo de terceiros no Serviço.<br/>●<br/>Qualquer conteúdo obtido do Serviço.<br/>●<br/>Acesso não autorizado, uso ou alteração de suas transmissões ou conteúdo.<br/>O uso do nosso serviço é inteiramente por sua conta e risco.<br/>5. Links Externos Nosso Serviço pode conter links para sites ou serviços de terceiros que não são de nossa propriedade ou controle. Não temos controle sobre, e não assumimos responsabilidade pelo conteúdo, políticas de privacidade ou práticas de quaisquer sites ou serviços de terceiros.<br/>6. Alterações Neste Aviso Reservamo-nos o direito de modificar ou substituir este Aviso a qualquer momento. É sua responsabilidade revisar esta página periodicamente para mudanças. Seu uso continuado do Serviço após quaisquer alterações constitui sua aceitação do novo Aviso.<br/>7. Aceitação destes Termos Ao usar este Serviço, você indica sua aceitação deste Aviso. Se você não concorda com este aviso, por favor, não use nosso Serviço."
+  }
+}

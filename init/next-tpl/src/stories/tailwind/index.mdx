@@ -1,0 +1,133 @@
+import { Meta, Canvas, Title } from '@storybook/blocks';
+import * as TailWindStory from './index.stories';
+
+<Meta of={TailWindStory} />
+
+<Title>伪类</Title>
+<Canvas
+  of={TailWindStory.Demo1}
+  source={{
+    code: `
+      <div>
+        <div className="mb-6">
+          <p className="m-2">hover、active、focus</p>
+          <p className="hover:bg-[red] bg-[#999] text-center">
+            hover、active、focus
+          </p>
+        </div>
+        <div className="mb-6">
+          <p className="m-2">focus-within、focus-visible</p>
+          <label className="focus-within:bg-[red] bg-[#ccc] text-center p-[10px]">
+            <input type="text" className="w-[200px] bg-[#bbb]" />
+          </label>
+        </div>
+        <div className="mb-6">
+          <p className="m-2">
+            first、last、even、first-child、first-letter、first-line
+          </p>
+          <p className="m-2">
+            only-child 【没有同级元素】、only-of-type
+            【没有相同同级元素】、empty
+          </p>
+          <p className="m-2">has-[]、not-[]</p>
+          <p className="m-2">md、lg、xl</p>
+          <p className="m-2">dark</p>
+        </div>
+      </div>
+  `,
+  }}
+/>
+
+<Title>group、pure 和 子选择器</Title>
+<Canvas
+  of={TailWindStory.Demo2}
+  source={{
+    code: `
+         <div>
+        <div className="group">
+          <div className="group/item">
+            <p className="m-2">group/item、group、group-has-[]</p>
+            <p className="group-has-[.m-2]:bg-[red]">
+              group/item、group、group-has-[]
+            </p>
+          </div>
+        </div>
+        <div>
+          <p className="peer m-2">peer/item、peer、peer-has-[]</p>
+          <p className="peer-[.m-2]:bg-[red]">peer/item、peer、peer-has-[]</p>
+        </div>
+        <div className="[&>.is-dragging]:bg-[red]">
+          <p className="peer m-2">子选择器</p>
+          <p className="is-dragging">{'[&>.is-dragging]:bg-[red]'}</p>
+        </div>
+      </div>
+  `,
+  }}
+/>
+
+<Title>主题变量</Title>
+<Canvas
+  of={TailWindStory.Demo3}
+  source={{
+    code: `
+ @theme {
+    --color-mint-500: oklch(0.72 0.11 178);
+  }
+<div class="bg-mint-500"></div>
+<div style="background-color: var(--color-mint-500)"></div>
+<div class="absolute inset-px rounded-[calc(var(--radius-xl)-1px)]"></div>
+// 直接控制样式
+@layer components {
+  .typography {
+    p {
+      font-size: var(--text-base);
+      color: var(--color-gray-700);
+    }
+    h1 {
+      font-size: var(--text-2xl--line-height);
+      font-weight: var(--font-weight-semibold);
+      color: var(--color-gray-950);
+    }
+    h2 {
+      font-size: var(--text-xl);
+      font-weight: var(--font-weight-semibold);
+      color: var(--color-gray-950);
+    }
+  }
+}
+  `,
+  }}
+/>
+
+<Title>自定义样式</Title>
+<Canvas
+  of={TailWindStory.Demo4}
+  source={{
+    code: `
+<div>
+  <p className={'[color:red] hover:[color:blue]'}>
+    直接写样式: [color:red]
+  </p>
+  <p className={'text-(--color-zinc-300)'}>
+    直接使用变量 : text-(--color-zinc-300)
+  </p>
+  <p>添加基础样式 ：@layer base</p>
+  <p>添加类样式 ：@layer components</p>
+  <p>添加系统颜色变体 ：@variant dark</p>
+  <p>添加自定义选择器 ：@utility tab-* </p>
+  @utility aspect-* {
+  aspect-ratio: --value(--aspect-ratio-*, ratio, [ratio]);
+}
+  <p>添加自定义变体 ：@custom-variant theme-midnight </p>
+  @custom-variant theme-midnight (&:where([data-theme="midnight"] *));
+  @custom-variant any-hover {
+  @media (any-hover: hover) {
+    &:hover {
+      @slot;
+    }
+  }
+}
+</div>
+  `,
+  }}
+/>

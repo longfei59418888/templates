@@ -1,0 +1,20 @@
+# http://editorconfig.org
+
+# 表示这是项目根目录下的顶级 .editorconfig 文件，编辑器在查找配置时会停止向上查找
+root = true
+
+# 匹配所有文件
+[*]
+# 字符集为 utf-8
+charset = utf-8
+# 使用 Unix 风格的换行符
+end_of_line = lf
+# 使用空格缩进
+indent_style = space
+# 缩进大小为 2
+indent_size = 2
+# 去除行末多余的空格
+trim_trailing_whitespace = true
+# 文件末尾会插入一个空行
+insert_final_newline = true
+

@@ -1,0 +1,11 @@
+/*
+* 变体是用于表示 “状态” 和 “条件” 的，用于控制在特定的情况下生效
+* 响应式变体 ： bg-red-500 md:bg-green-500 lg:bg-blue-500
+* 状态变体(伪类) : bg-blue-500 hover:bg-blue-700 focus:ring
+**/
+
+/*
+* 自定义变体 dark ： bg-red dark:bg-green
+* &:where(.dark, .dark *)：变体的 “条件”，拥有 .dark 或者 .dark *  [data-theme=dark] 、 [data-theme=dark] * 情况下生效
+**/
+@custom-variant dark (&:where(.dark, .dark *, [data-theme=dark], [data-theme=dark] *));

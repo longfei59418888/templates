@@ -1,0 +1,22 @@
+/* 隐藏滚动条 */
+@utility scrollbar-hidden {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE, Edge */
+
+  &::-webkit-scrollbar {
+    display: none; /* Safari, Chrome, Edge */
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@utility loading-spin {
+  animation: spin 1s linear infinite;
+}

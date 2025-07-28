@@ -1,0 +1,38 @@
+import { Meta, Title } from '@storybook/blocks';
+import { Structure } from './docs/structure';
+
+<Meta title="函数和配置" />
+
+<Title>函数</Title>
+
+- after：可以在服务器组件、中间件等服务器中执行
+  - 在执行之后可以运行 after 内部的函数，可以作为日志
+- cookies：next/headers，可以获取到 cookies 数据，可以在服务器组件中使用
+- generateSitemaps：动态生成站点地图
+- generateMetadata：动态生成 metadata
+- generateStaticParams：生成静态页面
+- headers：next/headers，获取 header，可以在服务器组件中使用
+- redirect：next/navigation，重定向
+- revalidatePath：next/cache，清楚某个页面的缓存数据
+- revalidateTag：next/cache，清楚某个tag缓存
+- useParams：next/navigation，客户端函数
+- usePathname：next/navigation，客户端函数
+- useRouter：next/navigation，客户端函数
+- useSearchParams：next/navigation，客户端函数
+- useSelectedLayoutSegment：next/navigation，客户端函数
+- useSelectedLayoutSegments：next/navigation，客户端函数
+
+### 配置 next.config.js
+- basePath：设置基础路径，在设置子域名，子目录下时候使用
+- crossOrigin：跨域 anonymous
+- distDir：构建产物目录
+- generateBuildId：每次构建生成的ID，process.env.GIT_HASH
+- headers：为整站、某个页面添加 header
+- output：【output: 'standalone'】可以复制所有的文件，包括 node_modules 中的依赖，这样就不需要按照其他文件
+  - 创建一个  .next/standalone
+  - 无需安装 node_modules
+  - cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next/
+  - node .next/standalone/server.js
+  - 运行项目，无法按照 node_modules
+- redirects：重定向内部和外部页面
+- rewrites：重写到内部和外部页面

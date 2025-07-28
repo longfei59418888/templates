@@ -1,0 +1,11 @@
+@theme {
+  /** bg-red-50 */
+  /** text-red-50 */
+  --color-red-50: oklch(0.971 0.013 17.38);
+}
+
+/** 引用了变量 var(--background)，需要使用 inline */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}

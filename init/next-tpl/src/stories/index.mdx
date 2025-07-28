@@ -1,0 +1,192 @@
+import { Meta, Title } from '@storybook/blocks';
+import { Structure } from './docs/structure';
+
+<Meta title="基础" />
+
+<Title>基础结构</Title>
+
+```tree
+.
+├── src                                 # 开发目录
+│   ├── app                             # 页面目录
+│   │   ├── layout.tsx                  # 全局布局文件
+│   │   ├── page.tsx                    # 页面文件
+│   │   ├── folder                      # 路由嵌套
+│   │   │   ├── page.tsx                # 页面文件
+│   │   │   ├── layout.tsx              # 页面文件
+│   │   ├── [folder]                    # 动态路由目录
+│   │   ├── [...folder]                 # 动态路由目录【所有可匹配到的路由】
+│   │   ├── [[...folder]]               # 动态路由目录【所有子路由】
+│   │   ├── (folder)                    # 路由组，不影响路由
+│   │   ├── _folder                     # 常规文件【不进行路由映射】
+│   │   ├── @folder                     # 插槽目录，不影响路由，子目录可以进行匹配 【并行路由】
+│   │   ├── loading                     # 全局loadding
+│   │   ├── not-found                   # 404 页面
+│   │   ├── error                       # 错误页面
+│   │   ├── global-error                # 全局错误页面
+│   │   ├── route                       # API 路由
+│   │   ├── template                    # 模版
+│   │   ├── default                     # 默认页面
+├── public                              # 静态文件
+├── next.config.js                      # 配置文件
+├── instrumentation.ts                  # 监控和日志
+├── middleware.ts                       # 请求中间件
+│── .env                                # 配置文件
+│── sitemap.[ts|xml]                    # 站点地图
+│── robots.[ts|txt]                     # 爬虫访问控制文件
+
+```
+
+<Title>导航模式</Title>- 布局文件和page文件都是服务器组件
+
+### 服务器渲染和客户端渲染
+
+- 客户端渲染
+  - 事件操作
+  - 生命周期操作 useEffect
+  - 客户端API localStorage、window
+  - 自定义 hook 也是在客户端执行
+  - 'use client'
+- 服务端渲染
+  - 获取数据【直接在函数组件中使用获取数据，则会在渲染ui】
+  - 使用 nextJs api 来编排渲染 【主要是页面和布局文件】
+  - 服务器功能函数 "use server"
+  - 分类：
+    - 静态渲染：在启动的时候渲染
+    - 动态渲染
+
+### 服务端数据传入客户端
+
+- 使用 props 属性传递
+- 使用 React context 共享数据
+- 使用 use 读取 promise 数据
+- Stream 组件：
+  - 使用 loading.ts 加载页面和组件
+  - Suspense 包裹组件
+
+### Metadata 和 OG
+
+- 静态 metadata：从页面或者布局文件中 export 一个 Metadata 对象
+- 动态 metadata: 使用 generateMetadata 生成
+
+### 静态生成 ISR
+
+- 构建 next build 的时候生成所有已知博客详情页面
+- 用户访问已知的博客，直接返回，并在 60s 之后重新验证是否过期，过期则重新生成
+- 用户访问不在已知博客内的博客，则直接生成，并缓存
+
+```
+/* app/blog/[id]/page.tsx */
+
+// 博客结构
+interface Blog {
+  id: string
+  title: string
+  content: string
+}
+
+// 多久后重新验证是否过期，并重新生成
+export const revalidate = 60
+// 控制不在已知的博客中的id，是否动态生成并缓存，还是返回404
+export const dynamicParams = true
+
+// 静态参数获取，获取所有的博客
+export async function generateStaticParams() {
+  const blogs: Blog[] = await fetch('https://api.vercel.app/blog').then((res) =>
+    res.json()
+  )
+  return blogs.map((post) => ({
+    id: String(post.id),
+  }))
+}
+
+
+export default async function Page({
+  params,
+}: {
+  // 获取参数
+  params: Promise<{ id: string }>
+}) {
+  const { id } = await params
+  const blog: Blog = await fetch(`https://api.vercel.app/blog/${id}`).then(
+    (res) => res.json()
+  )
+  return (
+    <main>
+      <h1>{blog.title}</h1>
+      <p>{blog.content}</p>
+    </main>
+  )
+}
+
+```
+
+- 更新已经生成的博客
+
+```
+import { revalidatePath } from 'next/cache';
+
+// 在某个操作后调用，更新文章
+revalidatePath('/app/blog/[id]');
+```
+
+### 结构化数据 JSON-LD
+
+```
+import { Product, WithContext } from 'schema-dts';
+
+const jsonLd: WithContext<Product> = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: 'Next.js Sticker',
+  image: 'https://nextjs.org/imgs/sticker.png',
+  description: 'Dynamic at the speed of static.',
+};
+
+ <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c'),
+  }}
+/>
+```
+
+### 中间件以及路由参数
+- route.[ts|js]：api 接口生成
+  - Response 全局函数
+  - Request 全局函数
+  - NextResponse 全局函数
+  - NextRequest 全局函数
+- 中间件
+  - 允许在请求完成前运行代码
+  - 重定向
+  - 修改子路由
+  - 认证
+
+### 组件
+- next/font
+- next/form
+- next/image
+- next/link
+- next/script
+
+### 文件系统与路由
+- default.js：与插槽 @folder 结合使用，当插槽路由目录下没有对应路由文件的时候，展示default.js
+- error.js：运行错误，无法展示UI的时候，展示default.js
+- robots.js：根目录，返回一个 Robots 对象
+- sitemap.js：根目录，返回一个 Sitemap 对象
+  - generateSitemaps 生成地图
+
+### 路由文件和页面文件配置
+- dynamic：渲染模式
+  - auto：尽可能缓存多
+  - force-dynamic：不缓存
+  - error：全部使用缓存，如果请求未缓存数据则报错
+  - force-static：全部使用缓存，如果请求未缓存数据则报错
+- dynamicParams：配合 generateStaticParams ，显示静态生成页面的时候，判断请求未生成的页面是返回404，还是生成新的页面
+- revalidate：
+  - false/0：不缓存
+  - number：不缓存
+- runtime：渲染模式 nodejs 和 edge
+- generateStaticParams：与动态路由结构生成静态页面
+
