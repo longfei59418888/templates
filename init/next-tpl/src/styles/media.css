@@ -1,0 +1,16 @@
+/** 目前prefers-color-scheme的值只有light和dark两种模式 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@media not all and (min-width: 768px) {
+  html {
+    font-size: clamp(16 * (370px / 1000), 16 * (100vw / 1000), 16px);
+  }
+  :root {
+    --font-size-scale: 1.5rem;
+  }
+}

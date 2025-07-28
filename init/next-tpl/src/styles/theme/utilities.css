@@ -20,3 +20,24 @@
 @utility loading-spin {
   animation: spin 1s linear infinite;
 }
+
+
+
+@media not all and (min-width: 765px) {
+ :root{
+   --font-size-scale: 2rem;
+ }
+}
+
+@utility demo-* {
+  tab-size: --value(integer); /* 使用 integer 数字 */
+  tab-size: --value([integer]); /* 使用任意的值 */
+  tab-size: --value('inherit', 'initial', 'unset'); /* 使用字面值 */
+  tab-size: --value(--tab-size-*);
+  tab-size: --value(--tab-size-*, integer, [integer]); /* 从左到右开始解析 */
+}
+
+@utility fs-* {
+  font-size: calc(--value(integer) * var(--font-size-scale) / 16);
+  line-height: 1.5;
+}
